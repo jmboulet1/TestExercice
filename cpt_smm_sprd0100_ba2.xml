@@ -1,0 +1,2920 @@
+﻿<?xml version='1.0'  encoding="UTF-8"?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="10.3" repversion="7" xmlengine="2.0">
+<TABLE>
+<DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="FTYP" seqno="3" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_ACCESS" seqno="4" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UKVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UMVERSION" seqno="6" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="3" idxsnr="1" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FHEAD" seqno="8" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOLOR" seqno="9" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVPOS" seqno="10" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVSIZ" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CLRSCRN" seqno="14" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBORDER" seqno="15" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBIN" seqno="16" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBOT" seqno="17" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="MOVABLE" seqno="18" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOINVERSE" seqno="19" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBRIGHT" seqno="20" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOUNLINE" seqno="21" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBLINK" seqno="22" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPANEL" seqno="23" type="S" level="2" pack="1" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSPANEL" seqno="24" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPULL" seqno="25" type="S" level="2" pack="1" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HIDESTACK" seqno="26" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="27" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UINHERIT" seqno="28" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LIBRAR" seqno="29" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSACT" seqno="30" type="S" level="2" pack="1" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPURPOSE" seqno="31" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="32" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="33" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL2" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="USCRIPT" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="INIT" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="CLEAR" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="RETRIEVE" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="RECORD" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="STORE" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DELET" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="ACCEPT" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="QUIT" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="INTKEY" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="SPRINT" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="EPRINT" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="ASYNC" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="FRLF" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="FRGF" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="SFUNC" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="GETSTATE" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="SETSTATE" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="UCTRIGGERS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="FORMPIC" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="TITLE" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="WINPROP" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="USCONTAINED" seqno="62" type="B" level="2" pack="128" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="ATTACHED" seqno="63" type="B" level="2" pack="128" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="USPLITPROP" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="USTATEMANAGEDBY" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="HTMLSKELETON" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2021-10-20T10:02:26.90</DAT>
+<DAT name="ULABEL">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">3</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Product Reports</DAT>
+<DAT name="WVSIZ">25</DAT>
+<DAT name="TEMPLATENAME">UTL_FORM_BAX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="LIBRAR">SMM</DAT>
+<DAT name="UTRANSACT">0</DAT>
+<DAT name="UCOMMENT" xml:space='preserve'>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Verdana;}}
+\viewkind4\uc1\pard\tx420\tx840\tx1260\tx1680\tx2100\tx2520\tx2940\tx3360\tx3780\tx4200\tx4620\tx5040\tx5460\tx5880\tx6300\tx6720\tx7140\tx7560\tx7980\tx8400\tx8820\tx9240\tx9660\tx10080\tx10500\tx10920\tx11340\tx11760\tx12180\tx12600\tx13020\tx13440\f0\fs17 GOTO / Reports / Product Master\par
+Form to launch batch related to Product.\par
+\par
+Code list SMM_SPRD0100_BA2\par
+code list is the same as form name.\par
+\par
+examples to get info\par
+-------------------------------------------------------\par
+UNIFACE REPORT\tab SMM_SPRD0100_PL3\par
+GP \tab\tab\tab SMM_INVSTAT\par
+Service \tab\tab SMM_SINV1305_001\par
+--------------------------------------------------------\par
+\par
+Params rtp Product Forecast Report (PDF)\par
+-------------\par
+"PARLIST=\par
+\{?Customer\}=1112070800\'b7!\'b7;\par
+\{?CustomerID\}=ALL\'b7!\'b7;\par
+\{?EmployeeID\}=ALL\'b7!\'b7;\par
+\{?Company\}=MITCHEL\'b7!\'b7;\par
+\{?Branch\}=ALL\'b7!\'b7;\par
+\{?NoZero\}=Yes\'b7!\'b7;\par
+\{?SortBy\}=1\'b7!\'b7;\par
+\{?ReportTitle\}=Product Forecast Report (PDF)"\par
+\par
+\par
+Params rtp MinMaxProduct2\par
+-------------\par
+\{?CSGrp\}=ALL\par
+\{?CustomerID\}=1610008002\par
+\{?EmployeeID\}=ALL\par
+\{?SortBy\}=1\par
+-------------\par
+\par
+CHANGES\par
+\par
+PATCH#\tab WHO \tab\tab   \tab\tab TECH REF #\tab\tab\tab WHEN \tab\tab\tab\tab WHAT \par
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\par
+\tab\tab Daric Martin     \tab\tab\tab\tab\tab\tab\tab 28/06/2017           \tab\tab Added Distribution to product item report., CL: 7,PRODUCTFORECAST,Product Forecast Report (PDF), removed option for old product Forecast out of the execute drop down.\par
+\tab\tab\tab\tab\tab\tab\tab          \tab\tab\tab\tab\tab\tab\tab  \tab\tab Added a second option for product forecast report in drop down list, ( Product Forecast Report with distribution (PDF) )\par
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\par
+\tab\tab Daric Martin    \tab\tab\tab\tab\tab\tab\tab 07/07/2017           \tab\tab Added  Distribution to MinMaxProduct2 report., add the distribution calculation from productforcast2.rtp to MinMaxProduct2.rtp\par
+                     \tab\tab\tab                             \tab\tab\tab\tab\tab    \tab\tab Added a second option for MinMaxProduct2 report in drop-down list MTO Product Min/Max Report with distribution (PDF).\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab What is new in  MinMaxProduct2?\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab 1. Calculation of quantity distribution added in the amounts.\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab 2. New field and new narrative CSG Customer Service Grouping. To add a CSG narrative, Use the CAD, MBF Maintenance. \par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab 3. The amount distributed is subtracted from the amount available. Avail = (QtyOnHand - QtyRelease - QtyDistrabution)\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab 4. Orders that are distributed are marked Distb. If the order is not a distribution order nothing will be displayed.\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab email subject = Doit \'eatre test\'e9 en LIVE., changements au rapport MinMaxProduct, Testing In LIVE.\par
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\par
+pJMb001\tab Jean Michel Boulet\tab\tab\tab\tab\tab\tab\tab 2018 August 30\tab\tab When New Inventory, choice "Product Forecast Report" must NOT be available (field operation.BUTTONS_1)\par
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\par
+pPma002\tab Pierre Malboeuf\tab\tab PKG_1645_20201113\tab 2020 Nov 13\tab\tab\tab Ajouter le nom du client dans le sujet du courriel rapport d'inventaire des rouleaux\par
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\par
+pJMb003\tab Jean Michel Boulet\tab\tab PKG_1352_005\tab\tab 2021 February 02\tab\tab Add Company as a parameter for Crystal report 2016 version of MinMaxProduct2Scan.rpt and MinMaxProductScan.rpt (Error -150 at execution)\par
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\par
+pPma004\tab Pierre Malboeuf\tab\tab PKG_1352_028\tab\tab 2021 Sept 27\tab\tab\tab Modifier les composantes batch et qui retourne les messages d'erreur de facon interactive\par
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\par
+pJMb005\tab Jean Michel Boulet\tab\tab PKG_1789\tab\tab\tab 2021 October 07\tab\tab Add checkbox "Prod. With activity only" as a filter when executing "Inventory and order status with release report"\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab Add quantitytoship to qtyonhand in Crystal Report ProductStatusRelScan.rpt\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab Add salesorder customer description when salesorder linked to a distribution product (in Crystal Report ProductStatusRelScan.rpt\par
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\par
+\par
+}
+</DAT>
+<DAT name="UDECLARATIONS" xml:space='preserve'>variables
+  string          UTL_CONTEXT1              ; Context variable 1
+  string          UTL_CONTEXT2              ; Context variable 2
+  string          UTL_DBNAVLIST             ; See constant
+  string          UTL_DLUPENTLST            ; See constant
+  string          UTL_ENTSTATUS             ; Std trigger
+  string          UTL_INPUT                
+  string          UTL_MNUDISABLE            ; Disable menu options
+  string          UTL_MODE                 
+  string          UTL_OUTPUT               
+  string          UTL_PENDACT               ; Pending action
+  string          UTL_TPL                   ; See constant
+  string          UTL_TPLVER                ; See constant
+  string          UTL_TRGSTATUS             ; Std trigger
+  string          UTL_WRUPENTLST            ; See constant
+endvariables
+#define BreakInheritance_cpt_INIT
+#define BreakInheritance_cpt_GENERAL
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=UTL_FORM_BAX
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#ifdefined UENTITY
+#info symbol UENTITY is already or also defined as a global or local constant
+#endif
+#define UENTITY=SPRD0100.SMM
+#Comment 
+
+#ifdefined UNQ_UENTITY
+#info symbol UNQ_UENTITY is already or also defined as a global or local constant
+#endif
+#define UNQ_UENTITY=SPRD0100
+#Comment 
+
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>operation exec
+;AUTHOR	:	Georges Moiny, Compuware Montreal
+;DESC	:	
+;CREATED:	20/05/1999
+;============================= MOD HISTORY ==============================
+;TAG	DATE		DESCRIPTION
+;========================================================================
+params
+	$utl_mode$	:IN
+	$utl_input$	:IN
+	$utl_output$	:OUT
+endparams
+if(!$$udk_batch)
+	call LP_BEFEXEC
+	call LP_BEFEDIT
+	edit
+	call LP_AFTEDIT
+	call LP_AFTEXEC
+else
+	putmess "==&gt; %%$datim START %%$componentname - %%$$bat_jobno"
+	call LP_BEFEXEC
+	clear/e "EXEQUEUE"
+	jobno.EXEQUEUE/init=$$bat_jobno
+	retrieve/e "EXEQUEUE"
+	if($status=0)
+		call X_MESSAGE("IC_BATJOBFND")
+		$$acr_userid=userid.EXEQUEUE
+		activate "UTL_GNRLTOOL".INITPRM($$acr_userid)
+		getlistitems/occ/init input.EXEQUEUE,"&lt;UENTITY&gt;"
+;pJMb001 START NEW CODE
+		if ($$SMM_NEWINVSTAT)
+			if (operation.EXEQUEUE == "SMM_SPRD0100_PL3")
+				call X_MESSAGE("IC_BATSTARTOP")
+				;Action obsolète. Utiliser l'option «Gestion des chargements» dans le menu «Bons de production».
+				putmess "==&gt; %%$datim%%% %%$componentname%%% - $$bat_jobno%%%, %%operation.EXEQUEUE%%% - %%$text(DEPRVANLOAD_L)%%%"
+				call X_MESSAGE("IC_BATENDOP")
+				return (0)
+			endif ;if (operation.EXEQUEUE == "SMM_SPRD0100_PL3")
+		endif ;if ($$SMM_NEWINVSTAT)
+;pJMb001 END NEW CODE
+		operation.BUTTONS_1=operation.EXEQUEUE
+		call X_MESSAGE("IC_BATSTARTOP")
+		call LP_STARTHIST
+		if($status=0) 
+			call LP_EXECOP
+			call LP_ENDHIST($status)
+		endif
+		call X_MESSAGE("IC_BATENDOP")
+	else
+		putmess "==&gt; %%$datim %%$componentname - %%$$bat_jobno not found"
+	endif
+	call LP_AFTEXEC
+	store/e "TASKMESS"
+	commit
+	putmess "==&gt; %%$datim END   %%$componentname - %%$$bat_jobno"
+	return
+endif
+done
+
+
+entry LP_STARTHIST
+jobno.TASKHIST=$$bat_jobno
+retrieve/e "TASKHIST"
+taskno.TASKHIST=taskno.EXEQUEUE
+component.TASKHIST=component.EXEQUEUE
+operation.TASKHIST=operation.EXEQUEUE
+userid.TASKHIST=userid.EXEQUEUE
+startdt.TASKHIST=$datim
+setocc "TASKHIST"
+store/e "TASKHIST"
+if($status&lt;0)
+	call X_ONERRORDBIO("STORE",$status,"")	
+	rollback
+	return -1
+else
+	commit
+	return 0
+endif
+	
+entry LP_ENDHIST
+params
+	numeric	numStatus	:IN
+endparams
+enddt.TASKHIST=$datim
+opstatus.TASKHIST=numStatus
+setocc "TASKHIST"
+store/e "TASKHIST"
+if($status&lt;0)
+	call X_ONERRORDBIO("STORE",$status,"")	
+	rollback
+	return -1
+else
+	commit
+	return 0
+endif
+	
+
+
+
+entry LP_EXECOP
+variables
+	string	strInst
+	string	strEntity, strCS, strCSList, strPr, strName, strDest, strTemp, strLogon
+	string	strSortOrder, strPar, strOption, strOutPath, strValue, strHeader
+	numeric	numIndex
+	boolean b_prospect
+	string 	strPdfFile, strServer, strSubject, strBody, strEmail, strMsg, strReportName
+	string		strCustomerName ;pPma002
+	numeric numResult
+endvariables
+
+customer.sprd0100=party.sopf1090
+if (S_PRODSTAT.sprd0100 != '3') 
+	vrprdstatus.sprd0100=S_PRODSTAT.sprd0100
+else
+	vrprdstatus.sprd0100=""
+endif
+
+strSortOrder=sort_order.sprd0100
+if (operation.buttons_1 = "SMM_SPRD0100_257")
+  b_prospect=b_zero.sprd0100
+else
+  b_prospect=p_prospect.sprd0100
+endif
+
+;SMM_CR00359 (Add begin)
+if (operation.BUTTONS_1 = "PRODUCTLIST")
+	if ($$smm_customerid !="")
+		putitem/id strPar,"{?CustomerID}","%%$$smm_customerid%%%"
+	else
+		putitem/id strPar,"{?CustomerID}","ALL"
+	endif
+	if ($$smm_employeeid !="")
+		putitem/id strPar,"{?EmployeeID}","%%$$smm_employeeid%%%"
+	else
+		putitem/id strPar,"{?EmployeeID}","ALL"
+	endif
+	putitem/id strPar,"{?Company}","%%$$smm_company%%%"
+	if (branch.SPAR0020!="")
+		putitem/id strPar,"{?Branch}","%%branch.SPAR0020%%%"
+	else
+		putitem/id strPar,"{?Branch}","%%$$smm_branch%%%"
+	endif
+	if (party.SOPF1090!="")
+		putitem/id strPar,"{?Customer}","%%party.SOPF1090%%%"
+	else
+		putitem/id strPar,"{?Customer}","ALL"
+	endif
+	putitem/id strPar,"{?ProductStatus}","%%s_prodstat.SPRD0100%%%"
+	putitem/id strPar,"{?SortBy}","%%sort_order.SPRD0100%%%"
+	if (b_prospect)
+		putitem/id strPar,"{?WithProspect}","Yes"
+	else
+		putitem/id strPar,"{?WithProspect}","No"
+	endif
+	putitem/id strOption,"PARLIST",strPar
+	putitem/id strOption,"MODE","SCREEN"
+	call G_CRVIEWER("ProductList.rpt",strOption)
+	return
+endif
+;SMM_CR00359 (Add end)
+
+;SMM_CR00360 (Add begin)
+if (operation.BUTTONS_1 = "PRODUCTSTATUS")
+	if ($$SMM_NEWINVSTAT)
+		strReportName="ProductStatusScan.rpt"
+	else
+		strReportName="ProductStatus.rpt"
+	endif
+
+	if ($$smm_customerid !="")
+		putitem/id strPar,"{?CustomerID}","%%$$smm_customerid%%%"
+	else
+		putitem/id strPar,"{?CustomerID}","ALL"
+	endif
+	if ($$smm_employeeid !="")
+		putitem/id strPar,"{?EmployeeID}","%%$$smm_employeeid%%%"
+	else
+		putitem/id strPar,"{?EmployeeID}","ALL"
+	endif
+	putitem/id strPar,"{?Company}","%%$$smm_company%%%"
+	if (party.SOPF1090!="")
+		putitem/id strPar,"{?CustomerNo}","%%party.SOPF1090%%%"
+	else
+		putitem/id strPar,"{?CustomerNo}","ALL"
+	endif
+
+	activate "UTL_GNRLTOOL".CL_L("SMM","SMM_SPRD0100_BA2",$$SMM_LANGUAGE,operation.BUTTONS_1,strValue)
+	putitem/id strPar,"{?ReportTitle}","%%strValue%%%"
+	putitem/id strOption,"PARLIST",strPar
+
+	;PMA20140330 (Change begin)
+	;strOutPath=$logical("smm_tempdir")
+	;putitem/id strOption,"MODE","PDF"
+	;putitem/id strOption,"DESTINATION","%%strOutPath%%%productstatus.pdf"
+	;call G_CRVIEWER("ProductStatus.rpt",strOption)
+	;if ($status=0)
+	;	call SMM_CRTOPDF("","",strOutPath,"productstatus","")
+	;endif
+	;(New Code)
+	if ($$udk_batch)
+		if (emailaddr.SPRD0100 != "")
+			strPdfFile=$logical("smm_tempdir")
+			if (party.SOPF1090!="")
+				strPdfFile="%%strPdfFile%%%\ProductStatus_%%party.SOPF1090%%%.pdf"
+			else
+				strPdfFile="%%strPdfFile%%%\ProductStatus_%%vrsalesmgroup.SPRD0100%%%.pdf"
+			endif
+			;PMA20130107 (Change end)
+
+			lfiledelete "%%strPdfFile%%%"
+			putitem/id strOption,"MODE","PDF"
+			putitem/id strOption,"DESTINATION",strPdfFile
+		    	putitem/id strOption,"PARLIST",strPar
+			call G_CRVIEWER(strReportName,strOption)
+
+			;pPma004 (Change begin)
+			;if ($status&lt;0 &amp; $lfileexists(strPdfFile) = 1) 
+			;	message/error "Error %%$status%%% on trying to send the document."
+			;	return 0
+			;(New Code)
+			if ($status&lt;0) 
+				putmess "Error %%$status%%% trying to generate the document."
+				return -1
+			;pPma004 (Change end)
+			endif
+			sleep 1000
+
+			numResult=0
+			strServer=$logical("smm_mailserver")
+			strSubject="Rapport inventaire / Inventory status report"
+			strBody="Rapport inventaire / Inventory status report"
+			strEmail=emailfrom.SPRD0100
+
+			;PMA20160613 - Move to UPOPMAIL and new exchange server 2008
+			;activate "SMEG".Send(numResult,strServer,strEmail,emailaddr.SPRD0100,strSubject,strBody,strPdfFile)
+			;if ($status&lt;0)
+			;	message/error $text(EC_MAILERR)
+			;	return -1
+			;endif
+			;(New Code)
+			;if (emailintf.SPRD0100="UPOPMAIL")
+
+				;PMA20190725 (Change begin) - Modifier le texte du courriel pour notification Do not reply
+				;strBody="%%strBody%%%%%^%%^%%strEmail%%%"
+				strMsg="Ne pas répondre à ce courriel. Pour répondre veuillez utiliser l’adresse ci-dessous. %%^Please do not respond to this email. To reply use the address below."
+				strBody="%%strBody%%% %%^ %%^%%strMsg%%% %%^%%strEmail%%%"
+				;PMA20190725 (Change end)
+
+				activate "ACR_USR_GS1".GetFieldVal("USERID=%%$$acr_userid%%%",strTemp)
+				getitem/id strEmail, strTemp, "EMAIL"
+				call X_SENDMAIL(emailaddr.SPRD0100,strEmail,"",strSubject,strBody,"",strPdfFile)
+				putmess "Email from: %%strEmail%%%, Email to: %%emailaddr.SPRD0100%%%, strBody: %%strBody%%% status: %%$status%%%"
+				if ($status&lt;0)
+					;pPma004 (Change begin)
+					;message/error $text(EC_MAILERR)
+					call X_MESSAGE("EC_MAILERR")
+					;pPma004 (Change end)
+					return -1
+				endif
+			;endif
+			;PMA20160613 - End
+			return
+
+		endif
+	else
+    	strOutPath=$logical("smm_tempdir")
+		putitem/id strOption,"MODE","PDF"
+		putitem/id strOption,"DESTINATION","%%strOutPath%%%productstatus.pdf"
+		call G_CRVIEWER(strReportName,strOption)
+	    if ($status=0)
+	      call SMM_CRTOPDF("","",strOutPath,"productstatus","")
+	    endif
+	endif
+	;PMA20140330 (Change end)
+;SMM_CR00360 (Add end)
+	return
+endif
+
+
+;SMM_CR00195 (Add begin)
+if (operation.BUTTONS_1 = "PRODUCTFORECAST")
+	if ($$SMM_NEWINVSTAT)
+		strReportName="ProductForecastScan.rpt"
+	else
+		strReportName="ProductForecast.rpt"
+	endif
+
+	putitem/id strPar,"{?Customer}","%%party.SOPF1090%%%"
+	if ($$smm_customerid !="")
+		putitem/id strPar,"{?CustomerID}","%%$$smm_customerid%%%"
+		putitem/id strPar,"{?Customer}","%%$$smm_customerid%%%"
+	else
+		putitem/id strPar,"{?CustomerID}","ALL"
+	endif
+	if ($$smm_employeeid !="")
+		putitem/id strPar,"{?EmployeeID}","%%$$smm_employeeid%%%"
+	else
+		putitem/id strPar,"{?EmployeeID}","ALL"
+	endif
+	putitem/id strPar,"{?Company}","%%$$smm_company%%%"
+	if (branch.SPAR0020!="")
+		putitem/id strPar,"{?Branch}","%%branch.SPAR0020%%%"
+	else
+		putitem/id strPar,"{?Branch}","ALL"
+	endif
+
+	if (b_zero.sprd0100)
+		putitem/id strPar,"{?NoZero}","Yes"
+	else
+		putitem/id strPar,"{?NoZero}","No"
+	endif
+
+	putitem/id strPar,"{?SortBy}","%%sort_order.SPRD0100%%%"
+	activate "UTL_GNRLTOOL".CL_L("SMM","SMM_SPRD0100_BA2","USA",operation.BUTTONS_1,strValue) 
+
+	if ($$SMM_NEWINVSTAT)
+		strValue="%%strValue%%% (Scan)"
+	endif
+
+	putitem/id strPar,"{?ReportTitle}","%%strValue%%%"
+	putitem/id strOption,"PARLIST",strPar
+
+	if ($$udk_batch)
+		if (emailaddr.SPRD0100 != "")
+			strPdfFile=$logical("smm_tempdir")
+			strPdfFile="%%strPdfFile%%%\productforecast_%%party.SOPF1090%%%.pdf"
+			lfiledelete "%%strPdfFile%%%"
+			putitem/id strOption,"MODE","PDF"
+			putitem/id strOption,"DESTINATION",strPdfFile
+		    putitem/id strOption,"PARLIST",strPar
+			;call G_CRVIEWER("ProductForecast.rpt",strOption)
+			call G_CRVIEWER(strReportName,strOption)
+			;pPma004 (Change begin)
+			;if ($status&lt;0 &amp; $lfileexists(strPdfFile) = 1) 
+			;	message/error "Error %%$status%%% on trying to send the document."
+			;	return 0
+			;(New Code)
+			if ($status&lt;0) 
+				putmess "Error %%$status%%% trying to generate the document."
+				return -1
+			;pPma004 (Change end)
+			endif
+
+			sleep 1000
+
+			numResult=0
+			strServer=$logical("smm_mailserver")
+			strSubject="Rapport Inventaire"
+			strBody="Rapport Inventaire"
+			strEmail=emailfrom.SPRD0100
+
+			;PMA20190725 (Change begin) - Modifier le texte du courriel pour notification Do not reply
+			;strBody="%%strBody%%%%%^%%^%%strEmail%%%"
+			strMsg="Ne pas répondre à ce courriel. Pour répondre veuillez utiliser l’adresse ci-dessous. %%^Please do not respond to this email. To reply use the address below."
+			strBody="%%strBody%%% %%^ %%^%%strMsg%%% %%^%%strEmail%%%"
+			;PMA20190725 (Change end)
+
+			activate "ACR_USR_GS1".GetFieldVal("USERID=%%$$acr_userid%%%",strTemp)
+			getitem/id strEmail, strTemp, "EMAIL"
+			call X_SENDMAIL(emailaddr.SPRD0100,strEmail,"",strSubject,strBody,"",strPdfFile)
+			putmess "Email from: %%strEmail%%%, Email to: %%emailaddr.SPRD0100%%%, strBody: %%strBody%%% status: %%$status%%%"
+			if ($status&lt;0)
+				;pPma004 (Change begin)
+				;message/error $text(EC_MAILERR)
+				call X_MESSAGE("EC_MAILERR")
+				;pPma004 (Change end)
+				return -1
+			endif
+			return
+		endif
+	else
+		putitem/id strOption,"MODE","SCREEN"
+	  ;call G_CRVIEWER("ProductForecast.rpt",strOption)
+		call G_CRVIEWER(strReportName,strOption)
+	endif
+	return
+endif
+;SMM_CR00195 (Add end)
+
+;DM 28/06/2017 ADD (Add begin)
+if (operation.BUTTONS_1 = "PRODUCTFORECAST2")
+	if ($$SMM_NEWINVSTAT)
+		strReportName="ProductForecast2Scan.rpt"
+	else
+		strReportName="ProductForecast2.rpt"
+	endif
+
+	putitem/id strPar,"{?Customer}","%%party.SOPF1090%%%"
+	if ($$smm_customerid !="")
+		putitem/id strPar,"{?CustomerID}","%%$$smm_customerid%%%"
+		putitem/id strPar,"{?Customer}","%%$$smm_customerid%%%"
+	else
+		putitem/id strPar,"{?CustomerID}","ALL"
+	endif
+	if ($$smm_employeeid !="")
+		putitem/id strPar,"{?EmployeeID}","%%$$smm_employeeid%%%"
+	else
+		putitem/id strPar,"{?EmployeeID}","ALL"
+	endif
+	putitem/id strPar,"{?Company}","%%$$smm_company%%%"
+	if (branch.SPAR0020!="")
+		putitem/id strPar,"{?Branch}","%%branch.SPAR0020%%%"
+	else
+		putitem/id strPar,"{?Branch}","ALL"
+	endif
+
+	if (b_zero.sprd0100)
+		putitem/id strPar,"{?NoZero}","Yes"
+	else
+		putitem/id strPar,"{?NoZero}","No"
+	endif
+
+	putitem/id strPar,"{?SortBy}","%%sort_order.SPRD0100%%%"
+	activate "UTL_GNRLTOOL".CL_L("SMM","SMM_SPRD0100_BA2","USA",operation.BUTTONS_1,strValue) 
+
+	if ($$SMM_NEWINVSTAT)
+		strValue="%%strValue%%% (Scan)"
+	endif
+
+	putitem/id strPar,"{?ReportTitle}","%%strValue%%%"
+	putitem/id strOption,"PARLIST",strPar
+
+	if ($$udk_batch)
+		if (emailaddr.SPRD0100 != "")
+			strPdfFile=$logical("smm_tempdir")
+			strPdfFile="%%strPdfFile%%%\productforecast_%%party.SOPF1090%%%.pdf"
+			lfiledelete "%%strPdfFile%%%"
+			putitem/id strOption,"MODE","PDF"
+			putitem/id strOption,"DESTINATION",strPdfFile
+		    putitem/id strOption,"PARLIST",strPar
+			;call G_CRVIEWER("ProductForecast2.rpt",strOption)
+			call G_CRVIEWER(strReportName,strOption)
+			;pPma004 (Change begin)
+			;if ($status&lt;0 &amp; $lfileexists(strPdfFile) = 1) 
+			;	message/error "Error %%$status%%% on trying to send the document."
+			;	return 0
+			;(New Code)
+			if ($status&lt;0) 
+				putmess "Error %%$status%%% trying to generate the document."
+				return -1
+			;pPma004 (Change end)
+			endif
+
+			sleep 1000
+
+			numResult=0
+			strServer=$logical("smm_mailserver")
+			strSubject="Rapport Inventaire"
+			strBody="Rapport Inventaire"
+			strEmail=emailfrom.SPRD0100
+
+			;PMA20190725 (Change begin) - Modifier le texte du courriel pour notification Do not reply
+			;strBody="%%strBody%%%%%^%%^%%strEmail%%%"
+			strMsg="Ne pas répondre à ce courriel. Pour répondre veuillez utiliser l’adresse ci-dessous. %%^Please do not respond to this email. To reply use the address below."
+			strBody="%%strBody%%% %%^ %%^%%strMsg%%% %%^%%strEmail%%%"
+			;PMA20190725 (Change end)
+
+			activate "ACR_USR_GS1".GetFieldVal("USERID=%%$$acr_userid%%%",strTemp)
+			getitem/id strEmail, strTemp, "EMAIL"
+			call X_SENDMAIL(emailaddr.SPRD0100,strEmail,"",strSubject,strBody,"",strPdfFile)
+			putmess "Email from: %%strEmail%%%, Email to: %%emailaddr.SPRD0100%%%, strBody: %%strBody%%% status: %%$status%%%"
+			if ($status&lt;0)
+				;pPma004 (Change begin)
+				;message/error $text(EC_MAILERR)
+				call X_MESSAGE("EC_MAILERR")
+				;pPma004 (Change end)
+				return -1
+			endif
+			return
+		endif
+	else
+		putitem/id strOption,"MODE","SCREEN"
+		;call G_CRVIEWER("ProductForecast2.rpt",strOption)
+		call G_CRVIEWER(strReportName,strOption)
+	endif
+	return
+endif
+;DM 28/06/2017  (ADD end)
+
+
+
+;SMM_CR00447 (Add begin)
+if (operation.BUTTONS_1 = "MINMAXPRODUCT")
+	if ($$SMM_NEWINVSTAT)
+		strReportName="MinMaxProductScan.rpt"
+	else
+		strReportName="MinMaxProduct.rpt"
+	endif
+
+	strName="{?CSGrp}"
+	strValue=vrsalesmgroup.SPRD0100
+	call X_REPLSUBSTR(strValue,";","&uSEP;")
+	call LP_SETPARAM(strName,strValue,strPar)
+
+	;PMA2015116 Fix parm - init to ALL if left blank
+	if (vrsalesmgroup.SPRD0100="")
+		putitem/id strPar,"{?CSGrp}","ALL"
+	endif
+
+	if ($$smm_customerid !="")
+		putitem/id strPar,"{?CustomerID}","%%$$smm_customerid%%%"
+	else
+		if (party.SOPF1090!="")
+			putitem/id strPar,"{?CustomerID}","%%party.SOPF1090%%%"
+		else
+			putitem/id strPar,"{?CustomerID}","ALL"
+		endif
+	endif
+    
+	if ($$smm_employeeid !="")
+		putitem/id strPar,"{?EmployeeID}","%%$$smm_employeeid%%%"
+	else
+		if (salesman.SPRD0100!="")
+			putitem/id strPar,"{?EmployeeID}","%%salesman.SPRD0100%%%"
+		else
+			putitem/id strPar,"{?EmployeeID}","ALL"
+		endif
+	endif
+
+	putitem/id strPar,"{?SortBy}","%%sort_order.SPRD0100%%%"
+
+	;PMA20180119 (Add begin)
+	if (ownbranch.SPRD0100!="")
+		putitem/id strPar,"{?CSGrpBr}",ownbranch.SPRD0100
+	else
+		putitem/id strPar,"{?CSGrpBr}",$$smm_branch
+	endif
+	;PMA20180119 (Add end)
+
+;pJMb003 START NEW CODE
+	if (owncompany.SPRD0100!="")
+		putitem/id strPar,"{?Company}",owncompany.SPRD0100
+	else
+		putitem/id strPar,"{?Company}",$$smm_company
+	endif
+;pJMb003 END NEW CODE
+
+	if ($$udk_batch)
+	    putitem/id strOption,"PARLIST",strPar
+		activate "SMM_GNRLTOOL".GetDefault($$smm_company,$$smm_branch,"MINMAXPRT",strPr)		
+
+		if (emailaddr.SPRD0100 != "")
+			strPdfFile=$logical("smm_tempdir")
+
+			if (party.SOPF1090!="")
+				strPdfFile="%%strPdfFile%%%\minmaxproduct_%%party.SOPF1090%%%.pdf"
+			else
+				strPdfFile="%%strPdfFile%%%\minmaxproduct_%%vrsalesmgroup.SPRD0100%%%.pdf"
+			endif
+
+			lfiledelete "%%strPdfFile%%%"
+			putitem/id strOption,"MODE","PDF"
+			putitem/id strOption,"DESTINATION",strPdfFile
+		    putitem/id strOption,"PARLIST",strPar
+			;call G_CRVIEWER("MinMaxProduct.rpt",strOption)
+			call G_CRVIEWER(strReportName,strOption)
+			;pPma004 (Change begin)
+			;if ($status&lt;0 &amp; $lfileexists(strPdfFile) = 1) 
+			;	message/error "Error %%$status%%% on trying to send the document."
+			;	return 0
+			;(New Code)
+			if ($status&lt;0) 
+				putmess "Error %%$status%%% trying to generate the document."
+				return -1
+			;pPma004 (Change end)
+			endif
+			sleep 1000
+
+			numResult=0
+			strServer=$logical("smm_mailserver")
+			strSubject="Min/Max report"
+			strBody="Min/Max report"
+			strEmail=emailfrom.SPRD0100
+
+			;PMA20190725 (Change begin) - Modifier le texte du courriel pour notification Do not reply
+			;strBody="%%strBody%%%%%^%%^%%strEmail%%%"
+			strMsg="Ne pas répondre à ce courriel. Pour répondre veuillez utiliser l’adresse ci-dessous. %%^Please do not respond to this email. To reply use the address below."
+			strBody="%%strBody%%% %%^ %%^%%strMsg%%% %%^%%strEmail%%%"
+			;PMA20190725 (Change end)
+
+			activate "ACR_USR_GS1".GetFieldVal("USERID=%%$$acr_userid%%%",strTemp)
+			getitem/id strEmail, strTemp, "EMAIL"
+			call X_SENDMAIL(emailaddr.SPRD0100,strEmail,"",strSubject,strBody,"",strPdfFile)
+			putmess "Email from: %%strEmail%%%, Email to: %%emailaddr.SPRD0100%%%, strBody: %%strBody%%% status: %%$status%%%"
+			if ($status&lt;0)
+				;pPma004 (Change begin)
+				;message/error $text(EC_MAILERR)
+				call X_MESSAGE("EC_MAILERR")
+				;pPma004 (Change end)
+				return -1
+			endif
+			return
+		else
+			putitem/id strOption,"MODE","PRINT"
+			if (strPr!="")
+				putitem/id strOption,"PRINTER","%%strPr%%%"
+			endif
+		endif
+
+	   ;call G_CRVIEWER("MinMaxProduct.rpt",strOption)
+		call G_CRVIEWER(strReportName,strOption)
+	else
+	   strOutPath=$logical("smm_tempdir")
+		putitem/id strOption,"MODE","PDF"
+		putitem/id strOption,"DESTINATION","%%strOutPath%%%minmaxproduct.pdf"
+	    putitem/id strOption,"PARLIST",strPar
+		;call G_CRVIEWER("MinMaxProduct.rpt",strOption)
+		call G_CRVIEWER(strReportName,strOption)
+	    if ($status=0)
+	      call SMM_CRTOPDF("","",strOutPath,"minmaxproduct","")
+	    endif
+		putitem/id strOption,"MODE","SCREEN"
+	endif
+	return
+endif
+;SMM_CR00447 (Add end)
+
+
+;DM 07/07/2017
+;Added second version of MinMax Report.
+if (operation.BUTTONS_1 = "MINMAXPRODUCT2") 
+	if ($$SMM_NEWINVSTAT)
+		strReportName="MinMaxProduct2Scan.rpt"
+	else
+		strReportName="MinMaxProduct2.rpt"
+	endif
+
+	strName="{?CSGrp}"
+	strValue=vrsalesmgroup.SPRD0100
+	call X_REPLSUBSTR(strValue,";","&uSEP;")
+	call LP_SETPARAM(strName,strValue,strPar)
+
+	;PMA2015116 Fix parm - init to ALL if left blank
+	if (vrsalesmgroup.SPRD0100="")
+		putitem/id strPar,"{?CSGrp}","ALL"
+	endif
+
+	if ($$smm_customerid !="")
+		putitem/id strPar,"{?CustomerID}","%%$$smm_customerid%%%"
+	else
+		if (party.SOPF1090!="")
+			putitem/id strPar,"{?CustomerID}","%%party.SOPF1090%%%"
+		else
+			putitem/id strPar,"{?CustomerID}","ALL"
+		endif
+	endif
+    
+	if ($$smm_employeeid !="")
+		putitem/id strPar,"{?EmployeeID}","%%$$smm_employeeid%%%"
+	else
+		if (salesman.SPRD0100!="")
+			putitem/id strPar,"{?EmployeeID}","%%salesman.SPRD0100%%%"
+		else
+			putitem/id strPar,"{?EmployeeID}","ALL"
+		endif
+	endif
+
+	putitem/id strPar,"{?SortBy}","%%sort_order.SPRD0100%%%"
+
+	if (ownbranch.SPRD0100!="")
+		putitem/id strPar,"{?CSGrpBr}",ownbranch.SPRD0100
+	else
+		putitem/id strPar,"{?CSGrpBr}",$$smm_branch
+	endif
+
+;pJMb003 START NEW CODE
+	if (owncompany.SPRD0100!="")
+		putitem/id strPar,"{?Company}",owncompany.SPRD0100
+	else
+		putitem/id strPar,"{?Company}",$$smm_company
+	endif
+;pJMb003 END NEW CODE
+	if ($$udk_batch)
+	    putitem/id strOption,"PARLIST",strPar
+		activate "SMM_GNRLTOOL".GetDefault($$smm_company,$$smm_branch,"MINMAXPRT",strPr)		
+
+		if (emailaddr.SPRD0100 != "")
+			strPdfFile=$logical("smm_tempdir")
+
+			if (party.SOPF1090!="")
+				strPdfFile="%%strPdfFile%%%\minmaxproduct2_%%party.SOPF1090%%%.pdf"
+			else
+				strPdfFile="%%strPdfFile%%%\minmaxproduct2_%%vrsalesmgroup.SPRD0100%%%.pdf"
+			endif
+
+			lfiledelete "%%strPdfFile%%%"
+			putitem/id strOption,"MODE","PDF"
+			putitem/id strOption,"DESTINATION",strPdfFile
+		    putitem/id strOption,"PARLIST",strPar
+			;call G_CRVIEWER("MinMaxProduct2.rpt",strOption)
+			call G_CRVIEWER(strReportName,strOption)
+
+			;pPma004 (Change begin)
+			;if ($status&lt;0 &amp; $lfileexists(strPdfFile) = 1) 
+			;	message/error "Error %%$status%%% on trying to send the document."
+			;	return 0
+			;(New Code)
+			if ($status&lt;0) 
+				putmess "Error %%$status%%% trying to generate the document."
+				return -1
+			;pPma004 (Change end)
+			endif
+			sleep 1000
+
+			numResult=0
+			strServer=$logical("smm_mailserver")
+			strSubject="Min/Max report"
+			strBody="Min/Max report"
+			strEmail=emailfrom.SPRD0100
+
+			;PMA20190725 (Change begin) - Modifier le texte du courriel pour notification Do not reply
+			;strBody="%%strBody%%%%%^%%^%%strEmail%%%"
+			strMsg="Ne pas répondre à ce courriel. Pour répondre veuillez utiliser l’adresse ci-dessous. %%^Please do not respond to this email. To reply use the address below."
+			strBody="%%strBody%%% %%^ %%^%%strMsg%%% %%^%%strEmail%%%"
+			;PMA20190725 (Change end)
+
+			activate "ACR_USR_GS1".GetFieldVal("USERID=%%$$acr_userid%%%",strTemp)
+			getitem/id strEmail, strTemp, "EMAIL"
+			call X_SENDMAIL(emailaddr.SPRD0100,strEmail,"",strSubject,strBody,"",strPdfFile)
+			putmess "Email from: %%strEmail%%%, Email to: %%emailaddr.SPRD0100%%%, strBody: %%strBody%%% status: %%$status%%%"
+			if ($status&lt;0)
+				;pPma004 (Change begin)
+				;message/error $text(EC_MAILERR)
+				call X_MESSAGE("EC_MAILERR")
+				;pPma004 (Change end)
+				return -1
+			endif
+
+			return
+		else
+			putitem/id strOption,"MODE","PRINT"
+			if (strPr!="")
+				putitem/id strOption,"PRINTER","%%strPr%%%"
+			endif
+		endif
+
+	    ;call G_CRVIEWER("MinMaxProduct2.rpt",strOption)
+		 call G_CRVIEWER(strReportName,strOption)
+	else
+	    strOutPath=$logical("smm_tempdir")
+		putitem/id strOption,"MODE","PDF"
+		putitem/id strOption,"DESTINATION","%%strOutPath%%%minmaxproduct2.pdf"
+	    putitem/id strOption,"PARLIST",strPar
+		;call G_CRVIEWER("MinMaxProduct2.rpt",strOption)
+		call G_CRVIEWER(strReportName,strOption)
+	    if ($status=0)
+	      call SMM_CRTOPDF("","",strOutPath,"minmaxproduct2","")
+	    endif
+		putitem/id strOption,"MODE","SCREEN"
+	endif
+	return
+endif
+;DM 07/07/2017
+
+
+;PMA20110316 (Add begin)
+if (operation.BUTTONS_1 = "PRODUCTSTATUSREL")
+	if ($$SMM_NEWINVSTAT)
+		strReportName="ProductStatusRelScan.rpt"
+	else
+		strReportName="ProductStatusRel.rpt"
+	endif
+
+	if ($$smm_customerid !="")
+		putitem/id strPar,"{?CustomerID}","%%$$smm_customerid%%%"
+	else
+		putitem/id strPar,"{?CustomerID}","ALL"
+	endif
+	if ($$smm_employeeid !="")
+		putitem/id strPar,"{?EmployeeID}","%%$$smm_employeeid%%%"
+	else
+		putitem/id strPar,"{?EmployeeID}","ALL"
+	endif
+	putitem/id strPar,"{?Company}","%%$$smm_company%%%"
+	if (party.SOPF1090!="")
+		putitem/id strPar,"{?CustomerNo}","%%party.SOPF1090%%%"
+	else
+		putitem/id strPar,"{?CustomerNo}","ALL"
+	endif
+
+	activate "UTL_GNRLTOOL".CL_L("SMM","SMM_SPRD0100_BA2",$$SMM_LANGUAGE,operation.BUTTONS_1,strValue)
+	putitem/id strPar,"{?ReportTitle}","%%strValue%%%"
+;pJMb005 START NEW CODE
+	;New boolean: Product with activity only
+	if (b_prodactonly.SPRD0100) 
+		putitem/id strPar,"{?bProdActOnly}","YES"
+	else
+		putitem/id strPar,"{?bProdActOnly}","NO"
+	endif ;if (b_prodactonly.SPRD0100)
+	;pJMb005 END NEW CODE
+putitem/id strOption,"PARLIST",strPar
+
+	;PMA20140330 (Change begin)
+	;strOutPath=$logical("smm_tempdir")
+	;putitem/id strOption,"MODE","PDF"
+	;putitem/id strOption,"DESTINATION","%%strOutPath%%%productstatusrel.pdf"
+	;call G_CRVIEWER("ProductStatusRel.rpt",strOption)
+	;if ($status=0)
+	;	call SMM_CRTOPDF("","",strOutPath,"productstatusrel","")
+	;endif
+	;(New Code)
+	if ($$udk_batch)
+		if (emailaddr.SPRD0100 != "")
+			strPdfFile=$logical("smm_tempdir")
+			if (party.SOPF1090!="")
+				strPdfFile="%%strPdfFile%%%\ProductStatus_%%party.SOPF1090%%%.pdf"
+			else
+				strPdfFile="%%strPdfFile%%%\ProductStatus_%%vrsalesmgroup.SPRD0100%%%.pdf"
+			endif
+			;PMA20130107 (Change end)
+
+			lfiledelete "%%strPdfFile%%%"
+			putitem/id strOption,"MODE","PDF"
+			putitem/id strOption,"DESTINATION",strPdfFile
+		    	putitem/id strOption,"PARLIST",strPar
+			call G_CRVIEWER(strReportName,strOption)
+
+			;pPma004 (Change begin)
+			;if ($status&lt;0 &amp; $lfileexists(strPdfFile) = 1) 
+			;	message/error "Error %%$status%%% on trying to send the document."
+			;	return 0
+			;(New Code)
+			if ($status&lt;0) 
+				putmess "Error %%$status%%% trying to generate the document."
+				return -1
+			;pPma004 (Change end)
+			endif
+			sleep 1000
+
+			numResult=0
+			strServer=$logical("smm_mailserver")
+			strSubject="Rapport inventaire avec relaches / Inventory status report with release"
+			strBody="Rapport inventaire avec relaches / Inventory status report with release"
+			strEmail=emailfrom.SPRD0100
+
+			;PMA20160613 - Move to UPOPMAIL and new exchange server 2008
+			;activate "SMEG".Send(numResult,strServer,strEmail,emailaddr.SPRD0100,strSubject,strBody,strPdfFile)
+			;if ($status&lt;0)
+			;	message/error $text(EC_MAILERR)
+			;	return -1
+			;endif
+			;(New Code)
+			;if (emailintf.SPRD0100="UPOPMAIL")
+
+				;PMA20190725 (Change begin) - Modifier le texte du courriel pour notification Do not reply
+				;strBody="%%strBody%%%%%^%%^%%strEmail%%%"
+				strMsg="Ne pas répondre à ce courriel. Pour répondre veuillez utiliser l’adresse ci-dessous. %%^Please do not respond to this email. To reply use the address below."
+				strBody="%%strBody%%% %%^ %%^%%strMsg%%% %%^%%strEmail%%%"
+				;PMA20190725 (Change end)
+
+				activate "ACR_USR_GS1".GetFieldVal("USERID=%%$$acr_userid%%%",strTemp)
+				getitem/id strEmail, strTemp, "EMAIL"
+				call X_SENDMAIL(emailaddr.SPRD0100,strEmail,"",strSubject,strBody,"",strPdfFile)
+				putmess "Email from: %%strEmail%%%, Email to: %%emailaddr.SPRD0100%%%, strBody: %%strBody%%% status: %%$status%%%"
+				if ($status&lt;0)
+					;pPma004 (Change begin)
+					;message/error $text(EC_MAILERR)
+					call X_MESSAGE("EC_MAILERR")
+					;pPma004 (Change end)
+					return -1
+				endif
+			;endif
+			;PMA20160613 - End
+
+			return
+
+		endif
+	else
+    	strOutPath=$logical("smm_tempdir")
+		putitem/id strOption,"MODE","PDF"
+		putitem/id strOption,"DESTINATION","%%strOutPath%%%productstatusrel.pdf"
+		call G_CRVIEWER(strReportName,strOption)
+	    if ($status=0)
+	      call SMM_CRTOPDF("","",strOutPath,"productstatusrel","")
+	    endif
+	endif
+	;PMA20140330 (Change end)
+	return
+endif
+;PMA20110316 (Add begin)
+
+;PMA20130718 (Add begin)
+;(New Code)
+if (operation.BUTTONS_1 = "ROLLSINVSTAT")
+	;PMA20130904 (Add begin)	
+	;if ($$acr_userid="PIERREM")
+	if ($$udk_batch)
+		putitem/id strOption,"INTF","RSVIEWER"
+		if (party.SOPF1090!="")
+			putitem/id strPar,"pcustomer","%%party.SOPF1090%%%"
+		else
+			putitem/id strPar,"pcustomer","ALL"
+		endif
+		putitem/id strPar,"psortby","%%sort_order.SPRD0100%%%"
+		putitem/id strOption,"INTF","RSLAUNCHER"
+		putitem/id strOption,"PARAMETER",strPar
+		putitem/id strOption,"OUTPUT","file:"
+		strPdfFile=$logical("smm_tempdir")
+		strPdfFile="%%strPdfFile%%%\CTIRollsInventory%%%.xls"
+		putitem/id strDest,"Excel",strPdfFile
+		putitem/id strOption,"DESTINATION",strDest
+		putitem/id strOption,"OSCMDTYPE","OSCOMMAND"
+		activate "SMM_RSVIEWER_100".EXEC("CTI Rolls inventory for customers","Production",strOption)
+		if (emailaddr.SPRD0100 != "")
+			numResult=0
+			strServer=$logical("smm_mailserver")
+			strSubject="Rapport inventory / Inventory report"
+			strBody="Rapport inventory / Inventory report"
+			strEmail=emailfrom.SPRD0100
+
+			;PMA20160613 - Move to UPOPMAIL and new exchange server 2008
+			;activate "SMEG".Send(numResult,strServer,strEmail,emailaddr.SPRD0100,strSubject,strBody,strPdfFile)
+			;if ($status&lt;0)
+			;	message/error $text(EC_MAILERR)
+			;	return -1
+			;endif
+			;(New Code)
+			;if (emailintf.SPRD0100="UPOPMAIL")
+
+				;PMA20190725 (Change begin) - Modifier le texte du courriel pour notification Do not reply
+				;strBody="%%strBody%%%%%^%%^%%strEmail%%%"
+				strMsg="Ne pas répondre à ce courriel. Pour répondre veuillez utiliser l’adresse ci-dessous. %%^Please do not respond to this email. To reply use the address below."
+				strBody="%%strBody%%% %%^ %%^%%strMsg%%% %%^%%strEmail%%%"
+				;PMA20190725 (Change end)
+
+				activate "ACR_USR_GS1".GetFieldVal("USERID=%%$$acr_userid%%%",strTemp)
+				getitem/id strEmail, strTemp, "EMAIL"
+				call X_SENDMAIL(emailaddr.SPRD0100,strEmail,"",strSubject,strBody,"",strPdfFile)
+				putmess "Email from: %%strEmail%%%, Email to: %%emailaddr.SPRD0100%%%, strBody: %%strBody%%% status: %%$status%%%"
+				if ($status&lt;0)
+					;pPma004 (Change begin)
+					;message/error $text(EC_MAILERR)
+					call X_MESSAGE("EC_MAILERR")
+					;pPma004 (Change end)
+					return -1
+				endif
+			;endif
+			;PMA20160613 - End
+
+			return
+		endif
+	else
+	;PMA20130904 (Add end)	
+		putitem/id strOption,"INTF","RSVIEWER"
+		if (party.SOPF1090!="")
+			putitem/id strPar,"pcustomer","%%party.SOPF1090%%%"
+		else
+			putitem/id strPar,"pcustomer","ALL"
+		endif
+		putitem/id strPar,"psortby","%%sort_order.SPRD0100%%%"
+		putitem/id strPar,"rc:parameters","false"
+		putitem/id strOption,"INTF","RSVIEWER"
+		putitem/id strOption,"PARAMETER",strPar
+		activate "SMM_RSVIEWER_100".EXEC("CTI Rolls inventory for customers","Production",strOption)
+
+	;PMA20130904 (Add begin)	
+	endif
+	;PMA20130904 (Add end)	
+
+	return
+endif
+;PMA20130718 (Add end)
+
+;PMA20130725 (Add begin)
+if (operation.BUTTONS_1 = "ROLLSINVSTCS")
+	putitem/id strOption,"INTF","RSVIEWER"
+	if (vrsalesmgroup.SPRD0100!="")
+		putitem/id strPar,"pcustserv","%%vrsalesmgroup.SPRD0100%%%"
+	else
+		putitem/id strPar,"pcustserv","ALL"
+	endif
+	if (party.SOPF1090!="")
+		putitem/id strPar,"pcustomer","%%party.SOPF1090%%%"
+	else
+		putitem/id strPar,"pcustomer","ALL"
+	endif
+	putitem/id strPar,"psortby","%%sort_order.SPRD0100%%%"
+	putitem/id strPar,"rc:parameters","false"
+	putitem/id strOption,"INTF","RSVIEWER"
+	putitem/id strOption,"PARAMETER",strPar
+	activate "SMM_RSVIEWER_100".EXEC("CTI Rolls inventory for customer service","Production",strOption)
+	return
+endif
+;PMA20130725 (Add end)
+
+;PMA20130725 (Add begin)
+if (operation.BUTTONS_1 = "FORECASTXLS")
+	if (party.SOPF1090!="")
+		putitem/id strPar,"pcustomer","%%party.SOPF1090%%%"
+	else
+		if ($language="USA")
+			strMsg = "Customer number is required"
+		else
+			strMsg = "Le numero de client est requis"
+		endif
+		message/error strMsg
+		return 0
+	endif
+	putitem/id strOption,"INTF","RSLAUNCHER"
+	putitem/id strOption,"PARAMETER",strPar
+	putitem/id strOption,"OUTPUT","file:"
+	filebox/dir
+	if($status) 
+		strPdfFile=$result
+		strPdfFile="%%strPdfFile%%%\ForecastData%%%.xls"
+		putitem/id strDest,"Excel",strPdfFile
+		putitem/id strOption,"DESTINATION",strDest
+		putitem/id strOption,"OSCMDTYPE","OSCOMMAND"
+		activate "SMM_RSVIEWER_100".EXEC("Rapport forecast client format tableau","Inventaire - Inventory",strOption)
+		if ($status=0)
+			if ($language="USA")
+				strMsg = "Le fichier %%strPdfFile%%% a été crée avec succes"
+			else
+				strMsg = "File %%strPdfFile%%% created successfully"
+			endif
+			message/info strMsg
+		endif	
+	endif
+	return
+endif
+;PMA20130725 (Add end)
+
+;PMA20190319 (Add begin)
+if (operation.BUTTONS_1 = "ROLLSINVSTATPO")
+	if ($$udk_batch)
+		putitem/id strOption,"INTF","RSVIEWER"
+		if (party.SOPF1090!="")
+			putitem/id strPar,"pcustomer","%%party.SOPF1090%%%"
+		else
+			putitem/id strPar,"pcustomer","ALL"
+		endif
+		putitem/id strPar,"psortby","%%sort_order.SPRD0100%%%"
+		putitem/id strOption,"INTF","RSLAUNCHER"
+		putitem/id strOption,"PARAMETER",strPar
+		putitem/id strOption,"OUTPUT","file:"
+		strPdfFile=$logical("smm_tempdir")
+;		strPdfFile="%%strPdfFile%%%\CTIRollsInventoryWithPo%%%.xls"
+		strPdfFile="%%strPdfFile%%%\CTIRollsInventoryWithPo_%%party.SOPF1090%%%.xls"
+		putitem/id strDest,"Excel",strPdfFile
+		putitem/id strOption,"DESTINATION",strDest
+		putitem/id strOption,"OSCMDTYPE","OSCOMMAND"
+		activate "SMM_RSVIEWER_100".EXEC("CTI Rolls inventory for customers with PO","Production",strOption)
+		if (emailaddr.SPRD0100 != "")
+			;pPma002 (Add begin)
+			strCustomerName = ""
+			if (party.SOPF1090!="")		;Retrieve customer name from party if there is a party no. 
+				retrieve/e "SOPF1090"
+				if ($status=0)
+					strCustomerName = descr.SOPF1090
+				endif
+			endif
+			;pPma002 (Add end)
+
+			numResult=0
+			strServer=$logical("smm_mailserver")
+			;pPma002 (Change begin)
+			;strSubject="Rapport inventory / Inventory report"
+			strSubject="Rapport inventory / Inventory report %%strCustomerName%%%"
+			;pPma002 (Change end)
+
+			strBody="Rapport inventory / Inventory report"
+			strEmail=emailfrom.SPRD0100
+
+			;PMA20190725 (Change begin) - Modifier le texte du courriel pour notification Do not reply
+			;strBody="%%strBody%%%%%^%%^%%strEmail%%%"
+			strMsg="Ne pas répondre à ce courriel. Pour répondre veuillez utiliser l’adresse ci-dessous. %%^Please do not respond to this email. To reply use the address below."
+			strBody="%%strBody%%% %%^ %%^%%strMsg%%% %%^%%strEmail%%%"
+			;PMA20190725 (Change end)
+
+			activate "ACR_USR_GS1".GetFieldVal("USERID=%%$$acr_userid%%%",strTemp)
+			getitem/id strEmail, strTemp, "EMAIL"
+			call X_SENDMAIL(emailaddr.SPRD0100,strEmail,"",strSubject,strBody,"",strPdfFile)
+			putmess "Email from: %%strEmail%%%, Email to: %%emailaddr.SPRD0100%%%, strBody: %%strBody%%% status: %%$status%%%"
+			if ($status&lt;0)
+				;pPma004 (Change begin)
+				;message/error $text(EC_MAILERR)
+				call X_MESSAGE("EC_MAILERR")
+				;pPma004 (Change end)
+				return -1
+			endif
+			return
+		endif
+	else
+		putitem/id strOption,"INTF","RSVIEWER"
+		if (party.SOPF1090!="")
+			putitem/id strPar,"pcustomer","%%party.SOPF1090%%%"
+		else
+			putitem/id strPar,"pcustomer","ALL"
+		endif
+		putitem/id strPar,"psortby","%%sort_order.SPRD0100%%%"
+		putitem/id strPar,"rc:parameters","false"
+		putitem/id strOption,"INTF","RSVIEWER"
+		putitem/id strOption,"PARAMETER",strPar
+		activate "SMM_RSVIEWER_100".EXEC("CTI Rolls inventory for customers with PO","Production",strOption)
+	endif
+	return
+endif
+;PMA20190319 (Add end)
+
+strInst=""	;SMMMIG_00033 
+newinstance operation.BUTTONS_1,strInst,"TRANSACTION=TRUE"
+if($procerror)
+	call X_ONERRORGEN("",$procerror,$procerrorcontext)
+	return -1
+endif
+
+putlistitems/occ strEntity,"SPRD0100"
+activate strInst.EXEC(strEntity,strSortOrder,b_prospect,p_revision)
+if($procerror)
+	call X_ONERRORGEN("",$procerror,$procerrorcontext)
+	return -1
+endif
+call X_MESSAGE("IC_JOBFINISHED")
+return
+
+;SMM_CR00447-A (Add begin)
+entry LP_SETPARAM
+params
+	string	strParName		:IN
+	string	strParList		:IN
+	string	strPar			:INOUT
+endparams
+variables
+	numeric	numIndex
+	string	strValue, strOut
+endvariables
+
+numIndex=1
+getitem strValue,strParList,numIndex
+while($status&gt;0)
+  if (strOut="")
+	  strOut = "%%strParName%%%=%%strValue"
+  else
+	  strOut = "%%strOut%%%&uSEP;%%strParName%%%=%%strValue"
+  endif
+  numIndex=1+numIndex
+  getitem strValue,strParList,numIndex
+endwhile		
+if (strPar!="")
+	strPar = "%%strPar%%%&uSEP;%%strOut%%%"
+else
+	strPar = strOut
+endif
+done
+;SMM_CR00447-A (Add end)
+
+entry LP_GETCSGRPBR
+	params
+		string        strCsGrp        :IN
+		string        strCsGrpBr      :OUT
+	endparams
+	variables
+		string        strUserId, strTemp 
+	endvariables 
+	
+	if (strCsGrp="") return
+
+	strUserId = ""
+	strTemp = "SELECT DISTINCT paramvalue FROM usrparam WHERE paramname IN ('SMM_CUSTSRVGRP') and paramvalue = '%%strCsGrp%%%'"
+	sql strTemp,"DEF"
+	if ($result!="")
+		strUserId = $result
+		strUserId = "%%strUserId%%%"
+	endif
+
+	if (strUserId="")
+		strUserId=strCsGrp
+	endif
+
+	strTemp = "SELECT DISTINCT paramvalue FROM usrparam WHERE paramname IN ('SMM_BRANCH') and paramvalue = '%%strUserId%%%'"
+	sql strTemp,"DEF"
+	if ($result!="")
+		strCsGrpBr = $result
+		strCsGrpBr = "%%strCsGrpBr%%%"
+	endif
+
+End
+
+entry LP_BEFEXEC
+putitem/id $valrep(s_prodstat.SPRD0100),"1",$text(active_s)
+putitem/id $valrep(s_prodstat.SPRD0100),"2",$text(inactive_s)
+putitem/id $valrep(s_prodstat.SPRD0100),"3",$text(all_s)
+
+putitem/id $valrep(sort_order.SPRD0100),"1",$text(descr_s)
+putitem/id $valrep(sort_order.SPRD0100),"2",$text(product_s)
+putitem/id $valrep(sort_order.SPRD0100),"3",$text(sizes_s)
+done
+
+entry LP_AFTEXEC
+done
+
+entry LP_BEFEDIT
+;SMM_CR00414 (Add begin)
+;pJMb001 field_syntax salesman.SPRD0100,"HID"
+fieldsyntax salesman.SPRD0100,"HID" ;pJMb001
+;SMM_CR00414 (Add end)
+
+;SMM_CR00447 (Add begin)
+;pJMb001 field_syntax vrsalesmgroup.SPRD0100,"HID"
+fieldsyntax vrsalesmgroup.SPRD0100,"HID" ;pJMb001
+;SMM_CR00447 (Add end)
+
+;PMA20110524 (Add begin)
+;pJMb001 field_syntax emailaddr.SPRD0100,"HID"
+fieldsyntax emailaddr.SPRD0100,"HID" ;pJMb001
+;PMA20110524 (Add end)
+
+fieldsyntax b_prodactonly.SPRD0100, "HID" ;pJMb005
+done
+
+entry LP_AFTEDIT
+done
+
+entry LP_BEFINIT
+done
+
+entry LP_AFTINIT
+done
+
+entry LP_BEFCLEANUP
+done
+
+entry LP_AFTCLEANUP
+done
+
+entry LP_BEFCLR
+done
+
+entry LP_AFTCLR
+;SMM_CR00414 (Add begin)
+;pJMb001 field_syntax salesman.SPRD0100,"HID"
+fieldsyntax salesman.SPRD0100,"HID" ;pJMb001
+;SMM_CR00414 (Add end)
+
+;SMM_CR00447 (Add begin)
+;pJMb001 field_syntax vrsalesmgroup.SPRD0100,"HID"
+fieldsyntax vrsalesmgroup.SPRD0100,"HID" ;pJMb001
+;SMM_CR00447 (Add end)
+
+;PMA20110524 (Add begin)
+;pJMb001 field_syntax emailaddr.SPRD0100,"HID"
+fieldsyntax emailaddr.SPRD0100,"HID" ;pJMb001
+;PMA20110524 (Add end)
+done
+
+entry LP_BEFSTOR
+done
+
+entry LP_AFTSTOR
+done
+
+entry LP_BEFRETR
+done
+
+entry LP_AFTRETR
+done
+
+entry LP_BEFACPT
+done
+
+entry LP_AFTACPT
+done
+
+entry LP_BEFQUIT
+done
+
+entry LP_AFTQUIT
+done
+
+entry LP_BEFMNUS
+done
+
+entry LP_AFTMNUS
+done
+
+entry LP_BEFPRNT
+done
+
+entry LP_AFTPRNT
+done
+
+entry LP_BEFPULS
+done
+
+entry LP_AFTPULS
+done
+
+entry LP_BEFASYS
+done
+
+entry LP_AFTASYS
+done
+
+entry LP_BEFFRGF
+done
+
+entry LP_AFTFRGF
+done
+
+entry LP_BEFFRLF
+done
+
+entry LP_AFTFRLF
+done
+
+entry LP_BEFRETS
+done
+
+entry LP_AFTRETS
+done
+
+entry LP_BEFERAS
+done
+
+entry LP_AFTERAS
+done
+
+entry LP_BEFUKYS
+done
+
+entry LP_AFTUKYS
+done
+
+
+
+Operation BEFOGF
+if ($$SMM_EMPLOYEEID != "" | $$SMM_CUSTOMERID != "")
+	if($entname="SPAR0020")
+;pJMb001	  field_syntax "P_LOOKUP","DIM"
+	  fieldsyntax "P_LOOKUP","DIM" ;pJMb001
+	endif
+	if($entname="SOPF1090")
+;pJMb001	  field_syntax "P_LOOKUP","DIM"
+	  fieldsyntax "P_LOOKUP","DIM" ;pJMb001
+	endif
+endif
+end
+
+operation EXEREAD
+if($entname="SPRD0100")
+	if($$smm_employeeid!="")
+		read where "customer in (select party from sopf1090 where employee='%%$$smm_employeeid%%%')"
+		$result=-1
+	else
+		if($$smm_customerid!="")
+			read where "customer='%%$$smm_customerid%%%'  or customer in (select customerchild from spar3005 where customerpar='%%$$smm_customerid%%%')"
+			$result=-1
+		endif
+	endif
+endif
+end
+</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>&uFRM;TYP=A&uSEP;NAM=AREA_6&uSEP;WID=78&uSEP;HEI=21&uSEP;HOC=76&uSEP;VOC=19&uSEP;BOR=F&uFRM;
+ &uFRM;TYP=E&uSEP;NAM=SPRD0100.SMM&uSEP;WID=77&uSEP;HEI=16&uSEP;HOC=77&uSEP;VOC=16&uFRM;  &uFRM;TYP=E&uSEP;NAM=SPAR0020.SMM&uSEP;WID=51&uSEP;HEI=1&uSEP;HOC=51&uSEP;VOC=1&uFRM;&uFRM;TYP=L&uSEP;NAM=BRANCH.SPAR0020&uSEP;WID=21&uSEP;HEI=1&uFRM;&uFRM;TYP=F&uSEP;NAM=BRANCH&uSEP;WID=29&uSEP;HEI=1&uFRM;  &uFRM;TYP=A&uSEP;NAM=AREA_1&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=20&uSEP;VOC=1&uSEP;BOR=F&uFRM;
+   &uFRM;TYP=E&uSEP;NAM=SOPF1090.SMM&uSEP;WID=51&uSEP;HEI=1&uSEP;HOC=51&uSEP;VOC=1&uFRM;&uFRM;TYP=L&uSEP;NAM=PARTY.SOPF1090&uSEP;WID=21&uSEP;HEI=1&uFRM;&uFRM;TYP=F&uSEP;NAM=PARTY&uSEP;WID=29&uSEP;HEI=1&uFRM;   &uFRM;TYP=L&uSEP;NAM=B_ZERO.SPRD0100&uSEP;WID=18&uSEP;HEI=1&uSEP;LAB=$text(SPRD0100_BA2_76)&uFRM;&uFRM;TYP=F&uSEP;NAM=B_ZERO&uSEP;WID=2&uSEP;HEI=1&uFRM;
+   &uFRM;TYP=L&uSEP;NAM=SALESMAN.SPRD0100&uSEP;WID=21&uSEP;HEI=1&uSEP;LAB=$text(SALESMAN_S)&uFRM;&uFRM;TYP=F&uSEP;NAM=SALESMAN&uSEP;WID=29&uSEP;HEI=1&uFRM;
+   &uFRM;TYP=L&uSEP;NAM=VRSALESMGROUP.SPRD0100&uSEP;WID=21&uSEP;HEI=1&uSEP;LAB=$text(VRSALESMGROUP_S)&uFRM;&uFRM;TYP=F&uSEP;NAM=VRSALESMGROUP&uSEP;WID=29&uSEP;HEI=1&uFRM;   &uFRM;TYP=L&uSEP;NAM=EMAILADDR.SPRD0100&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=$text(SCOE1010_112_09)&uFRM;
+   &uFRM;TYP=L&uSEP;NAM=LABEL_902&uSEP;WID=21&uSEP;HEI=1&uSEP;LAB=Incl. Prospect&uFRM;&uFRM;TYP=F&uSEP;NAM=P_PROSPECT&uSEP;WID=2&uSEP;HEI=1&uFRM;                             &uFRM;TYP=F&uSEP;NAM=EMAILINTF&uSEP;WID=1&uSEP;HEI=1&uFRM;&uFRM;TYP=F&uSEP;NAM=EMAILADDR&uSEP;WID=20&uSEP;HEI=1&uFRM;&uFRM;TYP=F&uSEP;NAM=EMAILFROM&uSEP;WID=1&uSEP;HEI=1&uFRM;
+   &uFRM;TYP=L&uSEP;NAM=B_PRODACTONLY.SPRD0100&uSEP;WID=21&uSEP;HEI=1&uSEP;LAB=$text(PRODACTIVONLY_S)&uFRM;&uFRM;TYP=F&uSEP;NAM=B_PRODACTONLY&uSEP;WID=2&uSEP;HEI=1&uFRM;
+
+
+  &uFRM;TYP=A&uSEP;NAM=AREA_2&uSEP;WID=22&uSEP;HEI=7&uSEP;HOC=20&uSEP;VOC=5&uSEP;BOR=F&uFRM; &uFRM;TYP=L&uSEP;NAM=S_PRODSTAT.SPRD0100&uSEP;WID=19&uSEP;HEI=1&uSEP;LAB=$text(SPRD0100_BA2_00)&uFRM; &uFRM;TYP=A&uSEP;NAM=AREA_3&uSEP;WID=22&uSEP;HEI=7&uSEP;HOC=20&uSEP;VOC=5&uSEP;BOR=F&uFRM; &uFRM;TYP=L&uSEP;NAM=P_REVISION.SPRD0100&uSEP;WID=19&uSEP;HEI=1&uSEP;LAB=$text(REVISION_S)&uFRM; &uFRM;TYP=A&uSEP;NAM=AREA_4&uSEP;WID=22&uSEP;HEI=7&uSEP;HOC=20&uSEP;VOC=5&uSEP;BOR=F&uFRM; &uFRM;TYP=L&uSEP;NAM=SORT_ORDER.SPRD010
+&uBS;0&uSEP;WID=19&uSEP;HEI=1&uSEP;LAB=$text(SPRD0100_BA2_01)&uFRM;
+
+   &uFRM;TYP=F&uSEP;NAM=S_PRODSTAT&uSEP;WID=20&uSEP;HEI=5&uFRM; &uFRM;TYP=F&uSEP;NAM=P_REVISION&uSEP;WID=20&uSEP;HEI=5&uFRM; &uFRM;TYP=F&uSEP;NAM=SORT_ORDER&uSEP;WID=20&uSEP;HEI=5&uFRM;
+
+
+
+
+ &uFRM;TYP=D&uSEP;NAM=LINE_1&uSEP;WID=76&uSEP;HEI=1&uSEP;HOC=1&uSEP;VOC=1&uSEP;BOR=F&uFRM;
+ &uFRM;TYP=E&uSEP;NAM=BUTTONS_1.UTL&uSEP;WID=76&uSEP;HEI=3&uSEP;HOC=76&uSEP;VOC=3&uFRM;&uFRM;TYP=F&uSEP;NAM=OPTION&uSEP;WID=28&uSEP;HEI=3&uFRM;&uFRM;TYP=L&uSEP;NAM=P_EXEC.BUTTONS_1&uSEP;WID=12&uSEP;HEI=1&uFRM;&uFRM;TYP=F&uSEP;NAM=P_EXEC&uSEP;WID=1&uSEP;HEI=1&uFRM;&uFRM;TYP=F&uSEP;NAM=OPERATION&uSEP;WID=35&uSEP;HEI=1&uFRM;
+
+
+
+&uFRM;TYP=A&uSEP;NAM=AREA_5&uSEP;WID=78&uSEP;HEI=4&uSEP;HOC=76&uSEP;VOC=2&uSEP;BOR=F&uFRM;
+ &uFRM;TYP=E&uSEP;NAM=BUTTONS.UTL&uSEP;WID=76&uSEP;HEI=2&uSEP;HOC=76&uSEP;VOC=2&uFRM;&uFRM;TYP=L&uSEP;NAM=P_CLEAR.BUTTONS&uSEP;WID=9&uSEP;HEI=2&uSEP;ALV=C&uSEP;LAB=$text(P_CLEAR_S)&uFRM;&uFRM;TYP=F&uSEP;NAM=P_CLEAR&uSEP;WID=1&uSEP;HEI=2&uFRM;                                             &uFRM;TYP=L&uSEP;NAM=P_CANCEL.BUTTONS&uSEP;WID=9&uSEP;HEI=2&uSEP;ALV=C&uSEP;LAB=$text(P_CANCEL_S)&uFRM;&uFRM;TYP=F&uSEP;NAM=P_CANCEL&uSEP;WID=1&uSEP;HEI=2&uFRM; &uFRM;TYP=L&uSEP;NAM=P_OK.BUTTONS&uSEP;WID=9&uSEP;HEI=2&uSEP;ALV=
+&uBS;C&uFRM;&uFRM;TYP=F&uSEP;NAM=P_OK&uSEP;WID=1&uSEP;HEI=2&uFRM;
+                   &uFRM;TYP=E&uSEP;NAM=MASTCDUL.BAT&uSEP;WID=10&uSEP;HEI=1&uSEP;HOC=10&uSEP;VOC=1&uFRM;&uFRM;TYP=E&uSEP;NAM=CDULDATE.BAT&uSEP;WID=1&uSEP;HEI=1&uSEP;HOC=1&uSEP;VOC=1&uFRM; &uFRM;TYP=E&uSEP;NAM=CDULTIME.BAT&uSEP;WID=1&uSEP;HEI=1&uSEP;HOC=1&uSEP;VOC=1&uFRM;  &uFRM;TYP=E&uSEP;NAM=RELTASKS.BAT&uSEP;WID=1&uSEP;HEI=1&uSEP;HOC=1&uSEP;VOC=1&uFRM;         &uFRM;TYP=E&uSEP;NAM=EXEQUEUE.BAT&uSEP;WID=7&uSEP;HEI=1&uSEP;HOC=7&uSEP;VOC=1&uFRM;        &uFRM;TYP=E&uSEP;NAM=TASKHIST.BAT&uSEP;WID=7&uSEP;HEI=1&uSEP;
+&uBS;HOC=7&uSEP;VOC=1&uFRM;         &uFRM;TYP=E&uSEP;NAM=TASKMESS.BAT&uSEP;WID=5&uSEP;HEI=1&uSEP;HOC=5&uSEP;VOC=1&uFRM;</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXGROUP" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULABEL" seqno="1" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UBASE" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UFORM" seqno="3" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,1" />
+<FLD name="UKVERSION" seqno="4" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="3" idxsnr="1" />
+<FLD name="UMVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_BORD" seqno="7" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DB_ACCESS" seqno="8" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_UPD" seqno="9" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINR" seqno="10" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXR" seqno="11" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INT" seqno="12" type="S" level="2" pack="1" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="13" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="14" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="15" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="16" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UCOLL_SCRIPT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UOCC_SCRIPT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="GETOCC" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="PUTOCC" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="DELOCC" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="LCK" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="UNLOCK" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="GETSEGM" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="ADDOCC" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="DELOCCR" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="CREOCC" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="FINDOCC" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="BREAK" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="VLDE" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="VLDK" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="PRLO" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="PSLO" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="PRSO" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="PSSO" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="UEOOPERS" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="UECOPERS" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="UECTRIGGERS" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="FLIST" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="U_OBJSVC" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="UEOINTERFACE" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="UECINTERFACE" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETTYPE" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETPROPS" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETTYPE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETPROPS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETTYPE" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETPROPS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETTYPE" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETPROPS" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="ULABEL">BUTTONS</DAT>
+<DAT name="UBASE">UTL</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">BUTTONS_1</DAT>
+<DAT name="UBASE">UTL</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">CDULDATE</DAT>
+<DAT name="UBASE">BAT</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">CDULTIME</DAT>
+<DAT name="UBASE">BAT</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">EXEQUEUE</DAT>
+<DAT name="UBASE">BAT</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">MASTCDUL</DAT>
+<DAT name="UBASE">BAT</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">RELTASKS</DAT>
+<DAT name="UBASE">BAT</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SOPF1090</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SPAR0020</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SPRD0100</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="DB_ACCESS">D</DAT>
+<DAT name="U_UPD">N</DAT>
+<DAT name="TEMPLATENAME">UENTITY</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UOCC_SCRIPT" xml:space='preserve'>trigger leavePrinted
+;
+</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">TASKHIST</DAT>
+<DAT name="UBASE">BAT</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">TASKMESS</DAT>
+<DAT name="UBASE">BAT</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULABEL" seqno="1" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="UKVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UMVERSION" seqno="6" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="5" idxsnr="1" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="1" scale="0" length="10"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_STATIC" seqno="9" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_CONTROL" seqno="10" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_LAYOUT" seqno="11" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_SYNTAX" seqno="12" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INT" seqno="13" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="14" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="15" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="16" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="17" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCRIPT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETTYPE" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETPROPS" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETPROPS" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETTYPE" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETPROPS" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETTYPE" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETPROPS" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="ULABEL">PARTY</DAT>
+<DAT name="GRP">SOPF1090</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULABEL" seqno="1" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="UKVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UMVERSION" seqno="6" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="5" idxsnr="1" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="1" scale="0" length="10"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_STATIC" seqno="9" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_CONTROL" seqno="10" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_LAYOUT" seqno="11" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_SYNTAX" seqno="12" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INT" seqno="13" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="14" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="15" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="16" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="17" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCRIPT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETTYPE" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETPROPS" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETPROPS" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETTYPE" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETPROPS" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETTYPE" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETPROPS" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="ULABEL">BRANCH</DAT>
+<DAT name="GRP">SPAR0020</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="DATA_SYNTAX">UPC,MAN,MUL</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULABEL" seqno="1" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="UKVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UMVERSION" seqno="6" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="5" idxsnr="1" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="1" scale="0" length="10"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_STATIC" seqno="9" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_CONTROL" seqno="10" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_LAYOUT" seqno="11" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_SYNTAX" seqno="12" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INT" seqno="13" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="14" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="15" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="16" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="17" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCRIPT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETTYPE" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETPROPS" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETPROPS" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETTYPE" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETPROPS" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETTYPE" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETPROPS" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="ULABEL">B_PRODACTONLY</DAT>
+<DAT name="GRP">SPRD0100</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Tri-state CheckBox (Boolean)</DAT>
+<DAT name="U_DTYP">B</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="UALT_NAME" xml:space='preserve'>&lt;t&gt;&lt;c&gt;Input: &lt;/c&gt;&lt;/t&gt;CheckBox</DAT>
+<DAT name="FRM_WIDGETTYPE">CHECKBOX</DAT>
+<DAT name="DSP_WIDGETTYPE">CHECKBOX</DAT>
+<DAT name="USP_WIDGETTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">B_ZERO</DAT>
+<DAT name="GRP">SPRD0100</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="U_DTYP">B</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>trigger error
+call X_ONERRORFLD
+
+
+
+trigger next
+call X_NEXTFIELD
+
+
+
+trigger previous
+call X_PREVFIELD
+
+
+
+trigger getFocus
+call X_FLDGF
+</DAT>
+<DAT name="INITVALUE">1</DAT>
+<DAT name="FRM_WIDGETTYPE">CHECKBOX</DAT>
+<DAT name="USP_WIDGETTYPE">U_CHECKBOX</DAT>
+<DAT name="USP_WIDGETPROPS">SYNC=1</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">EMAILADDR</DAT>
+<DAT name="GRP">SPRD0100</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FRM_WIDGETTYPE">EDITBOX</DAT>
+<DAT name="USP_WIDGETTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">EMAILFROM</DAT>
+<DAT name="GRP">SPRD0100</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="DATA_SYNTAX">HID</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FRM_WIDGETTYPE">EDITBOX</DAT>
+<DAT name="USP_WIDGETTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">EMAILINTF</DAT>
+<DAT name="GRP">SPRD0100</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="DATA_SYNTAX">HID</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FRM_WIDGETTYPE">EDITBOX</DAT>
+<DAT name="USP_WIDGETTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">P_PROSPECT</DAT>
+<DAT name="GRP">SPRD0100</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>trigger error
+call X_ONERRORFLD
+
+
+
+trigger next
+call X_NEXTFIELD
+
+
+
+trigger previous
+call X_PREVFIELD
+
+
+
+trigger getFocus
+call X_FLDGF
+</DAT>
+<DAT name="FRM_WIDGETTYPE">CHECKBOX</DAT>
+<DAT name="USP_WIDGETTYPE">U_CHECKBOX</DAT>
+<DAT name="USP_WIDGETPROPS">SYNC=1</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">P_REVISION</DAT>
+<DAT name="GRP">SPRD0100</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>trigger error
+call X_ONERRORFLD
+
+
+
+trigger next
+call X_NEXTFIELD
+
+
+
+trigger previous
+call X_PREVFIELD
+
+
+
+trigger getFocus
+call X_FLDGF
+</DAT>
+<DAT name="VALLAB" xml:space='preserve'>1=$text(lastrevision)&uSEP;2=$text(allrevision)</DAT>
+<DAT name="INITVALUE">1</DAT>
+<DAT name="FRM_WIDGETTYPE">RADIOGROUP</DAT>
+<DAT name="USP_WIDGETTYPE">U_RADIOBUTTON</DAT>
+<DAT name="USP_WIDGETPROPS">SYNC=1</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">S_PRODSTAT</DAT>
+<DAT name="GRP">SPRD0100</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>trigger error
+call X_ONERRORFLD
+
+
+
+trigger next
+call X_NEXTFIELD
+
+
+
+trigger previous
+call X_PREVFIELD
+
+
+
+trigger getFocus
+call X_FLDGF
+</DAT>
+<DAT name="VALLAB" xml:space='preserve'>1=Actif/Active&uSEP;2=Inactif/Inactive&uSEP;3=Tous les produits/All Products</DAT>
+<DAT name="INITVALUE">1</DAT>
+<DAT name="FRM_WIDGETTYPE">RADIOGROUP</DAT>
+<DAT name="FRM_WIDGETPROPS" xml:space='preserve'>COLUMNS=1&uSEP;ROWS=3</DAT>
+<DAT name="USP_WIDGETTYPE">U_RADIOBUTTON</DAT>
+<DAT name="USP_WIDGETPROPS">SYNC=1</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SALESMAN</DAT>
+<DAT name="GRP">SPRD0100</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="DATA_SYNTAX">MUL</DAT>
+<DAT name="U_INT">C*</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FRM_WIDGETTYPE">EDITBOX</DAT>
+<DAT name="USP_WIDGETTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SORT_ORDER</DAT>
+<DAT name="GRP">SPRD0100</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>trigger error
+call X_ONERRORFLD
+
+
+
+trigger next
+call X_NEXTFIELD
+
+
+
+trigger previous
+call X_PREVFIELD
+
+
+
+trigger getFocus
+call X_FLDGF
+</DAT>
+<DAT name="VALLAB" xml:space='preserve'>1=Description&uSEP;2=Produit/Product&uSEP;3=Grandeurs/Sizes</DAT>
+<DAT name="INITVALUE">1</DAT>
+<DAT name="FRM_WIDGETTYPE">RADIOGROUP</DAT>
+<DAT name="FRM_WIDGETPROPS" xml:space='preserve'>COLUMNS=1&uSEP;ROWS=3</DAT>
+<DAT name="USP_WIDGETTYPE">U_RADIOBUTTON</DAT>
+<DAT name="USP_WIDGETPROPS">SYNC=1</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">VRSALESMGROUP</DAT>
+<DAT name="GRP">SPRD0100</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Codelist (Drop down)</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="DATA_SYNTAX">@LIB::SP_VR</DAT>
+<DAT name="U_INT">@LIB::SP_VR_M</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>trigger detail
+call X_UTL_DDCL("DET")
+
+
+
+trigger error
+call X_ONERRORFLD
+
+
+
+trigger help
+call X_UTL_DDCL("HLP")
+
+
+
+trigger startModification
+call X_UTL_DDCL("SMOD")
+
+
+
+trigger loseFocus
+call X_UTL_DDCL("LF")
+
+
+
+trigger menu
+call X_UTL_DDCL("MNU")
+
+
+
+trigger getFocus
+call X_UTL_DDCL("FGF")
+
+
+
+trigger valueChanged
+call X_UTL_DDCL("VC")
+
+
+
+trigger validate
+call X_UTL_DDCL("VF")
+</DAT>
+<DAT name="FRM_WIDGETTYPE">DROPDOWNLIST</DAT>
+<DAT name="FRM_WIDGETPROPS" xml:space='preserve'>UTL_CLAPPL=SMM&uSEP;UTL_CLNAME=VRSALESMGROUP&uSEP;UTL_TPL=UTL_DDCL&uSEP;UTL_TPLVER=1.01</DAT>
+<DAT name="USP_WIDGETTYPE">U_MENU</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULABEL" seqno="1" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="UKVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UMVERSION" seqno="6" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="5" idxsnr="1" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="1" scale="0" length="10"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_STATIC" seqno="9" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_CONTROL" seqno="10" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_LAYOUT" seqno="11" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_SYNTAX" seqno="12" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INT" seqno="13" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="14" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="15" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="16" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="17" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCRIPT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETTYPE" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETPROPS" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETPROPS" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETTYPE" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETPROPS" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETTYPE" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETPROPS" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="ULABEL">P_CANCEL</DAT>
+<DAT name="GRP">BUTTONS</DAT>
+<DAT name="UBASE">UTL</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">P_CLEAR</DAT>
+<DAT name="GRP">BUTTONS</DAT>
+<DAT name="UBASE">UTL</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">P_OK</DAT>
+<DAT name="GRP">BUTTONS</DAT>
+<DAT name="UBASE">UTL</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULABEL" seqno="1" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="UKVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UMVERSION" seqno="6" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="5" idxsnr="1" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="1" scale="0" length="10"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_STATIC" seqno="9" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_CONTROL" seqno="10" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_LAYOUT" seqno="11" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_SYNTAX" seqno="12" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INT" seqno="13" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="14" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="15" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="16" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="17" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCRIPT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETTYPE" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETPROPS" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETPROPS" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETTYPE" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETPROPS" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETTYPE" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETPROPS" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="ULABEL">OPERATION</DAT>
+<DAT name="GRP">BUTTONS_1</DAT>
+<DAT name="UBASE">UTL</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>trigger detail
+call X_UTL_DDCL("DET")
+
+
+
+trigger error
+call X_ONERRORFLD
+
+
+
+trigger help
+call X_UTL_DDCL("HLP")
+
+
+
+trigger startModification
+call X_UTL_DDCL("SMOD")
+
+
+
+trigger loseFocus
+call X_UTL_DDCL("LF")
+
+
+
+trigger menu
+call X_UTL_DDCL("MNU")
+
+
+
+trigger getFocus
+call X_UTL_DDCL("FGF")
+;pJMb001 START NEW CODE
+if ($$SMM_NEWINVSTAT)
+	delitem/id $valrep(operation.BUTTONS_1), "SMM_SPRD0100_PL3"
+endif ;if ($$SMM_NEWINVSTAT)
+;pJMb001 END NEW CODE
+
+
+
+trigger valueChanged
+call X_UTL_DDCL("VC")
+
+;SMM_CR00447 (Change begin)
+;;SMM_CR00414 (Add begin)
+;if($status=0)
+;	if(@$fieldname="SMM_SPRD0100_256")
+;		field_syntax salesman.SPRD0100,""
+;	else
+;		field_syntax salesman.SPRD0100,"HID"
+;	endif
+;endif
+;;SMM_CR00414 (Add end)
+;(New Code)
+if($status=0)
+	if(@$fieldname="SMM_SPRD0100_256")
+;pJMb001		field_syntax salesman.SPRD0100,""
+		fieldsyntax salesman.SPRD0100,"" ;pJMb001
+;pJMb001		field_syntax vrsalesmgroup.SPRD0100,"HID"
+		fieldsyntax vrsalesmgroup.SPRD0100,"HID" ;pJMb001
+		fieldsyntax b_prodactonly.SPRD0100, "HID" ;pJMb005
+;PMA20130725 (Change begin)
+	;elseif(@$fieldname="MINMAXPRODUCT")
+	elseif(@$fieldname="MINMAXPRODUCT" | @$fieldname="ROLLSINVSTCS" | @$fieldname="PRODUCTSTATUSREL")
+	;PMA20130725 (Change end)
+;pJMb001		field_syntax salesman.SPRD0100,""
+		fieldsyntax salesman.SPRD0100,"" ;pJMb001
+;pJMb001		field_syntax vrsalesmgroup.SPRD0100,""
+		fieldsyntax vrsalesmgroup.SPRD0100,"" ;pJMb001
+		;PMA20110524 (Add begin)
+;pJMb001		field_syntax emailaddr.SPRD0100,""
+		fieldsyntax emailaddr.SPRD0100,"" ;pJMb001
+		;PMA20110524 (Add end)
+;pJMb005 START NEW CODE
+		if (@$fieldname == "PRODUCTSTATUSREL")
+			fieldsyntax b_prodactonly.SPRD0100, ""
+		endif ;if (@$fieldname="PRODUCTSTATUSREL")
+;pJMb005 END NEW CODE
+	else
+;pJMb001		field_syntax salesman.SPRD0100,"HID"
+		fieldsyntax salesman.SPRD0100,"HID" ;pJMb001
+;pJMb001		field_syntax vrsalesmgroup.SPRD0100,"HID"
+		fieldsyntax vrsalesmgroup.SPRD0100,"HID" ;pJMb001
+		;PMA20110524 (Add begin)
+;pJMb001		field_syntax emailaddr.SPRD0100,"HID"
+		fieldsyntax emailaddr.SPRD0100,"HID" ;pJMb001
+		;PMA20110524 (Add end)
+		fieldsyntax b_prodactonly.SPRD0100, "HID" ;pJMb005
+	endif
+endif
+;SMM_CR00447 (Change begin)
+
+
+
+trigger validate
+call X_UTL_DDCL("VF")
+</DAT>
+<DAT name="FRM_WIDGETTYPE">DROPDOWNLIST</DAT>
+<DAT name="FRM_WIDGETPROPS" xml:space='preserve'>ENTRIES=8&uSEP;UTL_CLAPPL=SMM&uSEP;UTL_CLNAME=SMM_SPRD0100_BA2&uSEP;UTL_TPL=UTL_DDCL&uSEP;UTL_TPLVER=1.01</DAT>
+<DAT name="USP_WIDGETTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">OPTION</DAT>
+<DAT name="GRP">BUTTONS_1</DAT>
+<DAT name="UBASE">UTL</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>trigger error
+call X_ONERRORFLD
+
+
+
+trigger next
+call X_NEXTFIELD
+
+
+
+trigger previous
+call X_PREVFIELD
+
+
+
+trigger getFocus
+call X_FLDGF
+</DAT>
+<DAT name="VALLAB" xml:space='preserve'>D=Direct&uSEP;S=Scheduled&uSEP;B=Background</DAT>
+<DAT name="INITVALUE">D</DAT>
+<DAT name="FRM_WIDGETTYPE">RADIOGROUP</DAT>
+<DAT name="FRM_WIDGETPROPS" xml:space='preserve'>COLUMNS=1&uSEP;ROWS=3</DAT>
+<DAT name="USP_WIDGETTYPE">U_RADIOBUTTON</DAT>
+<DAT name="USP_WIDGETPROPS">SYNC=1</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">P_EXEC</DAT>
+<DAT name="GRP">BUTTONS_1</DAT>
+<DAT name="UBASE">UTL</DAT>
+<DAT name="UFORM">SMM_SPRD0100_BA2</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>
