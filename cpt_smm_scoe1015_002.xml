@@ -1,0 +1,1291 @@
+﻿<?xml version='1.0'  encoding="UTF-8"?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="10.3" repversion="6" xmlengine="2.0">
+<TABLE>
+<DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="FTYP" seqno="3" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_ACCESS" seqno="4" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UKVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UMVERSION" seqno="6" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="3" idxsnr="1" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FHEAD" seqno="8" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOLOR" seqno="9" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVPOS" seqno="10" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVSIZ" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CLRSCRN" seqno="14" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBORDER" seqno="15" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBIN" seqno="16" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBOT" seqno="17" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="MOVABLE" seqno="18" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOINVERSE" seqno="19" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBRIGHT" seqno="20" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOUNLINE" seqno="21" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBLINK" seqno="22" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPANEL" seqno="23" type="S" level="2" pack="1" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSPANEL" seqno="24" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPULL" seqno="25" type="S" level="2" pack="1" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HIDESTACK" seqno="26" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="27" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UINHERIT" seqno="28" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LIBRAR" seqno="29" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSACT" seqno="30" type="S" level="2" pack="1" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPURPOSE" seqno="31" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="32" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="33" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL2" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="USCRIPT" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="INIT" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="CLEAR" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="RETRIEVE" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="RECORD" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="STORE" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DELET" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="ACCEPT" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="QUIT" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="INTKEY" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="SPRINT" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="EPRINT" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="ASYNC" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="FRLF" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="FRGF" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="SFUNC" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="GETSTATE" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="SETSTATE" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="UCTRIGGERS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="FORMPIC" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="TITLE" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="WINPROP" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="USCONTAINED" seqno="62" type="B" level="2" pack="128" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="ATTACHED" seqno="63" type="B" level="2" pack="128" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="USPLITPROP" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="USTATEMANAGEDBY" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="HTMLSKELETON" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2021-06-22T08:48:09.00</DAT>
+<DAT name="ULABEL">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">3</DAT>
+<DAT name="WVSIZ">10</DAT>
+<DAT name="WHSIZ">40</DAT>
+<DAT name="TEMPLATENAME">UTL_SERV_XXX1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="LIBRAR">SMM</DAT>
+<DAT name="UTRANSACT">1</DAT>
+<DAT name="UDECLARATIONS" xml:space='preserve'>variables
+  string          UTL_CONTEXT1             
+  string          UTL_CONTEXT2             
+  string          UTL_DLUPENTLST            ; See constant
+  string          UTL_ENTSTATUS             ; Std trigger
+  string          UTL_TPL                   ; See constant
+  string          UTL_TPLVER                ; See constant
+  string          UTL_TRGSTATUS             ; Std trigger
+  string          UTL_USERID                ; Userid
+  string          UTL_WRUPENTLST            ; See constant
+endvariables
+#define BreakInheritance_cpt_GENERAL
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=UTL_SERV_XXX1
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#ifdefined UENTITY
+#info symbol UENTITY is already or also defined as a global or local constant
+#endif
+#define UENTITY=SBIL1015.SMM
+#Comment 
+
+#ifdefined UNQ_UENTITY
+#info symbol UNQ_UENTITY is already or also defined as a global or local constant
+#endif
+#define UNQ_UENTITY=SBIL1015
+#Comment 
+
+#ifdefined UENTITY
+#info symbol UENTITY is already or also defined as a global or local constant
+#endif
+#define UENTITY=SCOE1015.SMM
+#Comment 
+
+#ifdefined UNQ_UENTITY
+#info symbol UNQ_UENTITY is already or also defined as a global or local constant
+#endif
+#define UNQ_UENTITY=SCOE1015
+#Comment 
+
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>entry LP_COMPUTEQTY
+variables
+	numeric	numOverRun
+	numeric	numDelta
+endvariables
+if(overrun.SPRD0110&gt;0)
+	numOverRun=overrun.SPRD0110
+elseif(corinvoverrun.SPAR3000&gt;0)
+	numOverRun=corinvoverrun.SPAR3000
+else
+	numOverRun=0
+endif
+if(numOverRun&gt;0)
+	qtyoninvoice.SBIL1015=qtyconfirmed.SCOE1015
+	numDelta=(qtyoninvoice.SBIL1015/qtyord.SCOE1010-1)
+	if(numDelta&gt;numOverRun)
+		qtyoninvoice.SBIL1015=qtyord.SCOE1010*(100+numOverRun)/100
+	endif
+else
+	qtyoninvoice.SBIL1015=qtyconfirmed.SCOE1015
+endif
+return
+end
+
+entry LP_BEFINIT
+done
+
+entry LP_AFTINIT
+done
+
+entry LP_BEFCLEANUP
+done
+
+entry LP_AFTCLEANUP
+done
+
+entry LP_BEFACPT
+done
+
+entry LP_AFTACPT
+done
+
+entry LP_BEFQUIT
+done
+
+entry LP_AFTQUIT
+done
+
+entry LP_BEFASYS
+done
+
+entry LP_AFTASYS
+done
+
+
+
+operation PrepForBill
+params
+	string	strEntity	:IN
+	numeric	numTk		:INOUT
+endparams
+variables
+	string	strTemp
+	date	dtDateShip  
+endvariables
+
+clear
+
+getlistitems/occ strEntity,"SCOE1015"
+;SMM_CR00638 (Add begin)
+getitem/id dtDateShip, strEntity, "DATESHIPPED"
+;SMM_CR00638 (Add end)
+setocc "SCOE1015"
+retrieve/e "SCOE1015"
+if($status&lt;0)
+	call X_ONERRORDBIO("RETRIEVE",$status,"")
+	exit -1
+endif
+
+;PMA20041126 - Re-activated 26-nov-2004 to avoid duplicate
+;---------------------------------------------------------
+
+;if(vrinvoicestat.SCOE1015!=3) exit -1	;to avoid duplicate
+
+if(numTk=0)
+	tkinvoicehead.SBIL1010=""
+	validatefield tkinvoicehead.SBIL1010
+	billto.SBIL1010=customer.SCOE1005
+	billtoseq.SBIL1010=customerseq.SCOE1005
+	shipto.SBIL1010=shipto.SCOE1015
+	shiptoseq.SBIL1010=shiptoseq.SCOE1015
+	vrinvoicetype.SBIL1010=1
+	vrinvheadstat.SBIL1010=1	;Pending
+	owncompany.SBIL1010=owncompany.SCOE1015
+	ownbranch.SBIL1010=ownbranch.SCOE1015
+	flggrp.SBIL1010="FALSE"
+else
+	tkinvoicehead.SBIL1010/init=numTk
+	retrieve/e "SBIL1010"
+	clear/e "SBIL1015"
+endif
+	
+
+setocc "SCOE1015",1
+;SMM_CR00638 (Add begin)
+if (dateshipped.SCOE1015 != dtDateShip)
+	dateshipped.SCOE1015 = dtDateShip
+endif
+;SMM_CR00638 (Add end)
+strTemp="VRTYPESO&uSEP;TOTAREA&uSEP;OWNCOMPANY&uSEP;OWNBRANCH&uSEP;DELIVERYSLIP&uSEP;DELIVERYLINE&uSEP;CUSTMEMO&uSEP;DATESHIPPED&uSEP;DATECONFIRMED&uSEP;SHIPTO&uSEP;SHIPTOSEQ&uSEP;SALESMANTYPE&uSEP;SALESMAN&uSEP;QTYSHIPPED&uSEP;WHOSHIPPED&uSEP;QTYCONFIRMED&uSEP;WHOCONFIRMED&uSEP;UOMQTY&uSEP;VRZONE&uSEP;AMOUNTGROSS&uSEP;AMOUNTCOD&uSEP;PRICESELLING&uSEP;UOMPRICESELL&uSEP;COSTUNIT&uSEP;UOMCOSTUNIT&uSEP;COMMISSION&uSEP;VRSLSDIV&uSEP;TAXPROCEDURE&uSEP;VRTERM&uSEP;VRCHARGE&uSEP;CUSTOMERPO&uSEP;SHIPVIA&uSEP;OWNCOMP
+&uBS;ANY&uSEP;OWNBRANCH"
+putlistitems/id/field strTemp
+setocc "SBIL1015"
+tkinvoiceline.SBIL1015=""
+validatefield tkinvoiceline.SBIL1015
+numTk=tkinvoiceline.SBIL1015
+getlistitems/occ strTemp,"SBIL1015"
+billto.SBIL1015=customer.SCOE1005
+billtoseq.SBIL1015=customerseq.SCOE1005
+flgordcomplete.SBIL1015=flgordcomplete.SCOE1015
+vrinvlinestat.SBIL1015=2	;Ready
+flginvcred.SBIL1015="TRUE"
+tkproduct.SBIL1015=tkproduct.SCOE1010
+item.SBIL1015=item.SCOE1010
+;customerpo.SBIL1015=customerpo.SCOE1010
+
+clear/e "SPAR0027"
+company.SPAR0027/init=owncompany.SCOE1015
+branch.SPAR0027/init=ownbranch.SCOE1015
+vrprdtype.SPAR0027/init=vrprdtype.SPRD0100
+vrslsdiv.SPAR0027/init=vrslsdiv.SCOE1015
+retrieve/e "SPAR0027"
+if($status=0)
+	account.SBIL1015=account.SPAR0027
+	chart.SBIL1015=chart.SPAR0027
+	costctr.SBIL1015=costctr.SPAR0027
+else
+	call SMM_GETDEF("SBIL1015","ACCOUNT",account.SBIL1015)
+	call SMM_GETDEF("SBIL1015","CHART",chart.SBIL1015)
+	costctr.SBIL1015=costctr.SBIL1015
+	validatefield costctr.SBIL1015
+endif
+
+;company.SPAR3000/init=$$utl_context1
+;branch.SPAR3000/init=$$utl_context2
+customer.SPAR3000/init=billto.SBIL1015
+retrieve/e "SPAR3000"
+
+call LP_COMPUTEQTY
+
+;PMA20120222 (Add begin)
+if($hits(SCOE1240)&gt;0)
+	billoflading.SBIL1015=billoflading.SCOE1240
+endif
+;PMA20120222 (Add end)
+
+if($hits(SCOE1017)&gt;0)
+	setocc "SCOE1017",1
+	while($status&gt;0)
+		creocc "SBIL1017",-1
+		narrative.SBIL1017=narrative.SCOE1017
+		vrnartype.SBIL1017=vrnartype.SCOE1017
+		setocc "SCOE1017",$curocc(SCOE1017)+1
+	endwhile
+endif
+
+if($hits(SCOE1250)&gt;0)
+	setocc "SCOE1250",1
+	strTemp="ADDRESS&uSEP;ADDRSTATE&uSEP;CITY&uSEP;COUNTRY&uSEP;STREET&uSEP;POSTCODE&uSEP;PROVCOD&uSEP;STREET&uSEP;DESCR&uSEP;SUBURB&uSEP;VRZONE"
+	putlistitems/id/field strTemp
+	creocc "SBIL1350",-1
+	getlistitems/occ strTemp,"SBIL1350"
+endif
+
+;if($hits(SCOE1150)&gt;0)
+;	setocc "SCOE1150",1
+;	while($status&gt;0)
+;		strTemp="ACCOUNT&uSEP;CHART&uSEP;TAXABLEAMT&uSEP;TAXAMT&uSEP;TAXPERC&uSEP;VRTAXCODE"
+;		putlistitems/id/field strTemp
+;		creocc "SBIL1150",-1
+;		getlistitems/occ strTemp,"SBIL1150"
+;		setocc "SCOE1150",$curocc(SCOE1150)+1
+;	endwhile
+;endif
+
+if($hits(SCOE1160)&gt;0)
+	setocc "SCOE1160",1
+	while($status&gt;0)
+		strTemp="ACCOUNT&uSEP;CHART&uSEP;COMMISSION&uSEP;COSTUNIT&uSEP;DESCR&uSEP;EXTRACHARGE&uSEP;PRICEUNIT&uSEP;QUANTITY&uSEP;UOMCOSTUNIT&uSEP;UOMPRICEUNIT&uSEP;FLGDISCOUNT&uSEP;FLGTAXABLE&uSEP;AMOUNTNET&uSEP;VRAPPLTYPE&uSEP;CHARGEPERC"
+		putlistitems/id/field strTemp
+		creocc "SBIL1160",-1
+		getlistitems/occ strTemp,"SBIL1160"
+		tkseqbilchg.SBIL1160=""
+		validatefield tkseqbilchg.SBIL1160
+;SMM_CR00800 (Add begin)
+		vrslsdiv.SBIL1160 = vrslsdiv.SPAR1140
+;SMM_CR00800 (Add end)
+
+;		if($hits(SCOE1165)&gt;0)
+;			setocc "SCOE1165",1
+;			while($status&gt;0)
+;				strTemp="ACCOUNT&uSEP;CHART&uSEP;TAXABLEAMT&uSEP;TAXAMT&uSEP;;TAXPERC&uSEP;VRTAXCODE"
+;				putlistitems/id/field strTemp
+;				creocc "SBIL1165",-1
+;				getlistitems/occ strTemp,"SBIL1165"
+;				setocc "SCOE1165",$curocc(SCOE1165)+1
+;			endwhile
+;		endif
+		if($hits(SCOE1162)&gt;0)
+			setocc "SCOE1162",1
+			while($status&gt;0)
+				creocc "SBIL1162",-1
+				vrnartype.SBIL1162=vrnartype.SCOE1162
+				narrative.SBIL1162=narrative.SCOE1162
+				setocc "SCOE1162",$curocc(SCOE1162)+1
+			endwhile
+		endif
+
+		setocc "SCOE1160",$curocc(SCOE1160)+1
+	endwhile
+endif
+
+if(address.SCOE1005!="")
+	setocc "SCOE1005",1
+	strTemp="ADDRESS&uSEP;ADDRSTATE&uSEP;CITY&uSEP;COUNTRY&uSEP;STREET&uSEP;POSTCODE&uSEP;PROVCOD&uSEP;STREET&uSEP;DESCR&uSEP;SUBURB&uSEP;VRZONE"
+	putlistitems/id/field strTemp
+	getlistitems/occ strTemp,"SBIL1320"
+endif
+setocc "SBIL1010"
+store/e "SBIL1010"
+if($status&lt;0)
+	call X_ONERRORDBIO("STORE",$status,"")
+	rollback
+	exit -1
+else
+	setocc "SBIL1015"			;necessary to recompute 
+	reload/nolock				;the amountcod and amountgross
+	amountcod.SBIL1015=amountcod.SBIL1015
+	store/e "SBIL1015"
+	;PMA20080501 (Change begin)
+	;vrinvoicestat.SCOE1015=0
+	if (vrinvoicestat.SCOE1015 != "2") vrinvoicestat.SCOE1015=0
+	;PMA20080501 (Change begin)
+	setocc "SCOE1015"
+	store/e "SCOE1015"
+	if($status&lt;0)
+		call X_ONERRORDBIO("STORE",$status)
+		rollback
+		exit -1
+	else
+		commit
+		exit 0
+	endif
+endif
+exit 0
+end
+
+operation BEFWRIT
+variables
+	string	strSo
+	numeric	numSo
+	numeric	numTk
+	numeric	numQty
+endvariables
+if($entname="SBIL1015")
+	strSo=salesorder.SCOE1010
+	numSo=soline.SCOE1010
+	numTk=tkinvoiceline.SBIL1015
+	numQty=0
+	activate "SMM_SCOE1010_007".GetTotInvQty(strSo,numSo,numTk,numQty)
+	qtytotinvoiced.SBIL1015=numQty
+	putmess "QUANTITY ALREADY INVOICED IS %%qtytotinvoiced.SBIL1015%%%"
+	return
+endif
+end
+
+Operation EXEREAD
+if ($entname = "SCOE1240")
+  read order by "billoflading desc"
+  $result = -1
+endif
+End
+</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>
+ &uFRM;TYP=E&uSEP;NAM=SCOE1015.SMM&uSEP;WID=30&uSEP;HEI=49&uSEP;HOC=30&uSEP;VOC=49&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=SCOE1015.SCOE1015&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SCOE1015&uFRM;
+
+  &uFRM;TYP=E&uSEP;NAM=SCOE1017.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+   &uFRM;TYP=L&uSEP;NAM=LABEL_4&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SCOE1017&uFRM;
+
+
+  &uFRM;TYP=E&uSEP;NAM=SCOE1250.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+   &uFRM;TYP=L&uSEP;NAM=LABEL_5&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SCOE1250&uFRM;
+
+
+  &uFRM;TYP=E&uSEP;NAM=SCOE1150.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+   &uFRM;TYP=L&uSEP;NAM=LABEL_6&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SCOE1150&uFRM;
+
+
+  &uFRM;TYP=E&uSEP;NAM=SCOE1180.SMM&uSEP;WID=28&uSEP;HEI=15&uSEP;HOC=28&uSEP;VOC=15&uFRM;
+   &uFRM;TYP=E&uSEP;NAM=SCOE1010.SMM&uSEP;WID=26&uSEP;HEI=13&uSEP;HOC=26&uSEP;VOC=13&uFRM;
+    &uFRM;TYP=E&uSEP;NAM=SPRD0100.SMM&uSEP;WID=24&uSEP;HEI=7&uSEP;HOC=24&uSEP;VOC=7&uFRM;
+     &uFRM;TYP=L&uSEP;NAM=LABEL_5102&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SPRD0100&uFRM;
+
+     &uFRM;TYP=E&uSEP;NAM=SPRD0110.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+      &uFRM;TYP=L&uSEP;NAM=LABEL_5103&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SPRD0110&uFRM;
+
+
+
+    &uFRM;TYP=E&uSEP;NAM=SCOE1005.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+     &uFRM;TYP=L&uSEP;NAM=SCOE1005.SCOE1005&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SCOE1005&uFRM;
+
+
+
+
+  &uFRM;TYP=E&uSEP;NAM=SCOE1160.SMM&uSEP;WID=26&uSEP;HEI=13&uSEP;HOC=26&uSEP;VOC=13&uFRM;
+   &uFRM;TYP=E&uSEP;NAM=SPAR1140.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+    &uFRM;TYP=F&uSEP;NAM=VRSLSDIV&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+   &uFRM;TYP=L&uSEP;NAM=LABEL_2&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SCOE1160&uFRM;
+
+   &uFRM;TYP=E&uSEP;NAM=SCOE1165.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+    &uFRM;TYP=L&uSEP;NAM=LABEL_3&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SCOE1165&uFRM;
+
+
+   &uFRM;TYP=E&uSEP;NAM=SCOE1162.SMM&uSEP;WID=24&uSEP;HEI=1&uSEP;HOC=24&uSEP;VOC=1&uFRM;
+
+
+  &uFRM;TYP=E&uSEP;NAM=SCOE1240.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+   &uFRM;TYP=F&uSEP;NAM=BILLOFLADING&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+
+ &uFRM;TYP=E&uSEP;NAM=SBIL1010.SMM&uSEP;WID=30&uSEP;HEI=35&uSEP;HOC=30&uSEP;VOC=35&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=LABEL_1&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SBIL1010&uFRM;
+
+  &uFRM;TYP=E&uSEP;NAM=SBIL1350.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+   &uFRM;TYP=L&uSEP;NAM=LABEL_9&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SBIL1350&uFRM;
+
+
+  &uFRM;TYP=E&uSEP;NAM=SBIL1320.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+   &uFRM;TYP=L&uSEP;NAM=LABEL_7&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SBIL1320&uFRM;
+
+
+  &uFRM;TYP=E&uSEP;NAM=SBIL1015.SMM&uSEP;WID=28&uSEP;HEI=23&uSEP;HOC=28&uSEP;VOC=23&uFRM;
+   &uFRM;TYP=L&uSEP;NAM=LABEL_10&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SBIL1015&uFRM;
+
+   &uFRM;TYP=E&uSEP;NAM=SBIL1017.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+    &uFRM;TYP=L&uSEP;NAM=LABEL_11&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SBIL1017&uFRM;
+
+
+   &uFRM;TYP=E&uSEP;NAM=SBIL1150.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+    &uFRM;TYP=L&uSEP;NAM=LABEL_12&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SBIL1150&uFRM;
+
+
+   &uFRM;TYP=F&uSEP;NAM=QTYTOTINVOICED&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+   &uFRM;TYP=E&uSEP;NAM=SBIL1160.SMM&uSEP;WID=26&uSEP;HEI=9&uSEP;HOC=26&uSEP;VOC=9&uFRM;
+    &uFRM;TYP=L&uSEP;NAM=LABEL_13&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SBIL1160&uFRM;
+
+    &uFRM;TYP=E&uSEP;NAM=SBIL1165.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+     &uFRM;TYP=L&uSEP;NAM=LABEL_14&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SBIL1165&uFRM;
+
+
+    &uFRM;TYP=E&uSEP;NAM=SBIL1162.SMM&uSEP;WID=24&uSEP;HEI=1&uSEP;HOC=24&uSEP;VOC=1&uFRM;
+
+
+
+
+ &uFRM;TYP=E&uSEP;NAM=SPAR0027.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=LABEL_15&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SPAR0027&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=SPAR3000.SMM&uSEP;WID=22&uSEP;HEI=3&uSEP;HOC=22&uSEP;VOC=3&uFRM;
+  &uFRM;TYP=L&uSEP;NAM=LABEL_8&uSEP;WID=20&uSEP;HEI=1&uSEP;LAB=SPAR3000&uFRM;</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXGROUP" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULABEL" seqno="1" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UBASE" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UFORM" seqno="3" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,1" />
+<FLD name="UKVERSION" seqno="4" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="3" idxsnr="1" />
+<FLD name="UMVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_BORD" seqno="7" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DB_ACCESS" seqno="8" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_UPD" seqno="9" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINR" seqno="10" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXR" seqno="11" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INT" seqno="12" type="S" level="2" pack="1" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="13" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="14" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="15" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="16" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UCOLL_SCRIPT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UOCC_SCRIPT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="GETOCC" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="PUTOCC" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="DELOCC" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="LCK" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="UNLOCK" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="GETSEGM" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="ADDOCC" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="DELOCCR" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="CREOCC" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="FINDOCC" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="BREAK" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="VLDE" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="VLDK" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="PRLO" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="PSLO" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="PRSO" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="PSSO" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="UEOOPERS" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="UECOPERS" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="UECTRIGGERS" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="FLIST" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="U_OBJSVC" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="UEOINTERFACE" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="UECINTERFACE" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETTYPE" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETPROPS" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETTYPE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETPROPS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETTYPE" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETPROPS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETTYPE" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETPROPS" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="ULABEL">SBIL1010</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SBIL1015</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="TEMPLATENAME">UENTITY</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SBIL1017</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SBIL1150</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SBIL1160</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SBIL1162</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SBIL1165</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SBIL1320</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="U_MAXR">1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SBIL1350</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SCOE1005</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SCOE1010</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SCOE1015</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_UPD">O</DAT>
+<DAT name="TEMPLATENAME">UENTITY</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SCOE1017</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SCOE1150</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SCOE1160</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SCOE1162</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SCOE1165</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SCOE1180</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SCOE1240</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SCOE1250</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SPAR0027</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SPAR1140</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SPAR3000</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SPRD0100</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SPRD0110</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULABEL" seqno="1" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="UKVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UMVERSION" seqno="6" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="5" idxsnr="1" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="1" scale="0" length="10"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_STATIC" seqno="9" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_CONTROL" seqno="10" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_LAYOUT" seqno="11" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_SYNTAX" seqno="12" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INT" seqno="13" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="14" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="15" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="16" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="17" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCRIPT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETTYPE" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETPROPS" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETPROPS" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETTYPE" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETPROPS" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETTYPE" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETPROPS" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="ULABEL">QTYTOTINVOICED</DAT>
+<DAT name="GRP">SBIL1015</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="U_DTYP">N</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>trigger error
+call X_ONERRORFLD
+</DAT>
+<DAT name="FRM_WIDGETTYPE">EDITBOX</DAT>
+<DAT name="USP_WIDGETTYPE">U_INPUT</DAT>
+<DAT name="USP_WIDGETPROPS">SYNC=1</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULABEL" seqno="1" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="UKVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UMVERSION" seqno="6" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="5" idxsnr="1" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="1" scale="0" length="10"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_STATIC" seqno="9" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_CONTROL" seqno="10" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_LAYOUT" seqno="11" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_SYNTAX" seqno="12" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INT" seqno="13" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="14" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="15" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="16" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="17" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCRIPT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETTYPE" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETPROPS" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETPROPS" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETTYPE" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETPROPS" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETTYPE" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETPROPS" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="ULABEL">BILLOFLADING</DAT>
+<DAT name="GRP">SCOE1240</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULABEL" seqno="1" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="UKVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UMVERSION" seqno="6" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="5" idxsnr="1" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="1" scale="0" length="10"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_STATIC" seqno="9" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_CONTROL" seqno="10" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_LAYOUT" seqno="11" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_SYNTAX" seqno="12" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INT" seqno="13" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="14" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="15" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="16" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="17" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCRIPT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETTYPE" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETPROPS" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETPROPS" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETTYPE" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETPROPS" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETTYPE" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETPROPS" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="ULABEL">VRSLSDIV</DAT>
+<DAT name="GRP">SPAR1140</DAT>
+<DAT name="UBASE">SMM</DAT>
+<DAT name="UFORM">SMM_SCOE1015_002</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UINHERIT">F</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>
